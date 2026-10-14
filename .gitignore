@@ -1,0 +1,8 @@
+app/
+runtime/
+data/
+workspace/
+*.log
+.env
+*.zip
+!agent/**/esco.zip

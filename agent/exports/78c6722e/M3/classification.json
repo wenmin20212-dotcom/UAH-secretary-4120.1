@@ -1,0 +1,22 @@
+{
+  "status": "confirmed",
+  "decision": {
+    "kind": "matched",
+    "uri": "http://data.europa.eu/esco/occupation/5ac377d2-e1d0-4911-a299-b4ef2782a0ba",
+    "code": "4120.1",
+    "label": "secretary",
+    "citation": {
+      "datasetId": "esco-v1.2.1-en",
+      "version": "1.2.1",
+      "language": "en",
+      "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+      "file": "occupations_en.csv",
+      "fileSha256": "8034348d84b6d1dd24a5bcf9609186ecbba0a85457ee2eacd65bddec33a51b4a",
+      "recordNumber": 1140,
+      "sourceUri": "http://data.europa.eu/esco/occupation/5ac377d2-e1d0-4911-a299-b4ef2782a0ba",
+      "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+    },
+    "reason": "用户在展示岗位画像、候选和 M1—M9 创建范围后明确认可 4120.1。"
+  },
+  "approvalTrust": "Classification chosen in originating conversation; personal approval text excluded."
+}

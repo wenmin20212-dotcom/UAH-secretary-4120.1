@@ -1,0 +1,67 @@
+{
+  "schema": "uahraf9m-M2-index/v0.1",
+  "capabilities": [
+    {
+      "id": "M2.1",
+      "name": "来信与联络事项整理",
+      "status": "confirmed",
+      "file": "M2/M2.1.md",
+      "m1Basis": [
+        "M1.scopeIn.001",
+        "M1.responsibilities.001"
+      ]
+    },
+    {
+      "id": "M2.2",
+      "name": "商务邮件与回复起草",
+      "status": "confirmed",
+      "file": "M2/M2.2.md",
+      "m1Basis": [
+        "M1.scopeIn.002",
+        "M1.responsibilities.002"
+      ]
+    },
+    {
+      "id": "M2.3",
+      "name": "按授权发送邮件",
+      "status": "confirmed",
+      "file": "M2/M2.3.md",
+      "m1Basis": [
+        "M1.scopeIn.003",
+        "M1.responsibilities.004",
+        "M1.humanResponsibilities.002"
+      ]
+    },
+    {
+      "id": "M2.4",
+      "name": "外部联系跟进与转达",
+      "status": "confirmed",
+      "file": "M2/M2.4.md",
+      "m1Basis": [
+        "M1.scopeIn.004",
+        "M1.responsibilities.003"
+      ]
+    },
+    {
+      "id": "M2.5",
+      "name": "会面与沟通时间协调",
+      "status": "confirmed",
+      "file": "M2/M2.5.md",
+      "m1Basis": [
+        "M1.scopeIn.004",
+        "M1.humanResponsibilities.001"
+      ]
+    },
+    {
+      "id": "M2.6",
+      "name": "沟通记录归档与续接",
+      "status": "confirmed",
+      "file": "M2/M2.6.md",
+      "m1Basis": [
+        "M1.scopeIn.005",
+        "M1.responsibilities.004",
+        "M1.responsibilities.005"
+      ]
+    }
+  ]
+}

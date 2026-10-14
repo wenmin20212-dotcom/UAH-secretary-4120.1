@@ -1,0 +1,55 @@
+{
+    "schema":  "uahraf9m-M2-capability/v0.1",
+    "id":  "M2.3",
+    "name":  "按授权发送邮件",
+    "status":  "confirmed",
+    "purpose":  "在账号、资源、操作权限和最终版本明确后发送指定邮件，保留实际结果并避免重复发送。",
+    "m1Basis":  [
+                    "M1.scopeIn.003",
+                    "M1.responsibilities.004",
+                    "M1.humanResponsibilities.002"
+                ],
+    "inputs":  [
+                   "最终邮件版本及附件",
+                   "实际邮箱账号与发送权限",
+                   "指定收件人",
+                   "已有发送记录"
+               ],
+    "outputs":  [
+                    "实际发送回执或明确失败记录",
+                    "绑定草稿版本的发送状态"
+                ],
+    "preconditions":  [
+                          "账号和接口已连接",
+                          "实际授权覆盖本次操作、资源与最终内容",
+                          "相同请求没有成功或结果不明的发送记录"
+                      ],
+    "completionConditions":  [
+                                 "发送记录可绑定真实消息标识和最终内容",
+                                 "失败与结果不明状态明确且不自动重复发送"
+                             ],
+    "failureConditions":  [
+                              "账号、收件人或授权不足",
+                              "接口失败或发送结果无法确认"
+                          ],
+    "humanConfirmation":  [
+                              "提供实际发送授权",
+                              "结果不明时决定是否进一步核对或重试"
+                          ],
+    "dependencies":  [
+                         "M2.2"
+                     ],
+    "boundaries":  [
+                       "本次只有能力设计，尚无实际邮箱接入",
+                       "未经授权不得外发",
+                       "发送成功不等于对方已读或接受"
+                   ],
+    "createdAt":  "2026-10-14T03:37:52.6607373Z",
+    "confirmedAt":  "2026-10-14T03:37:55.4013273Z",
+    "confirmation":  {
+                         "method":  "automated_contract_check",
+                         "checker":  "02-m2-check.ps1",
+                         "version":  "0.1",
+                         "sourceDraftHash":  "a56562a442b3475c55f6d9e8b6ce67ca0eff45cc037a9718ad5ce0709ddc71d7"
+                     }
+}

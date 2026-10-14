@@ -1,0 +1,16 @@
+{
+  "mode": "automatic_local",
+  "theme": "general",
+  "renderer": "local_code",
+  "sizes": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "path": "assets/agent.ico",
+  "sha256": "a61b0d5b37e2b691910edd5dcb54787edd1dc21078dc6928aa127d743d59205c"
+}

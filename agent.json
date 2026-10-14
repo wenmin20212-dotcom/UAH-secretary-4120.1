@@ -1,0 +1,102 @@
+{
+  "schema": "uahraf9m-demold/v0.1",
+  "id": "private-company-secretary",
+  "name": "私人公司对外联络秘书 — ESCO 4120.1",
+  "version": "0.1.0",
+  "mode": "prototype",
+  "views": {
+    "M1": {
+      "status": "ready",
+      "files": [
+        "exports/78c6722e/M1/M1.json",
+        "exports/78c6722e/M1/M1.md"
+      ]
+    },
+    "M2": {
+      "status": "incomplete",
+      "files": [
+        "exports/78c6722e/M2/index.json",
+        "exports/78c6722e/M2/M2.1.json",
+        "exports/78c6722e/M2/M2.1.md",
+        "exports/78c6722e/M2/M2.1-sources.json",
+        "exports/78c6722e/M2/M2.2.json",
+        "exports/78c6722e/M2/M2.2.md",
+        "exports/78c6722e/M2/M2.2-sources.json",
+        "exports/78c6722e/M2/M2.3.json",
+        "exports/78c6722e/M2/M2.3.md",
+        "exports/78c6722e/M2/M2.3-sources.json",
+        "exports/78c6722e/M2/M2.4.json",
+        "exports/78c6722e/M2/M2.4.md",
+        "exports/78c6722e/M2/M2.4-sources.json",
+        "exports/78c6722e/M2/M2.5.json",
+        "exports/78c6722e/M2/M2.5.md",
+        "exports/78c6722e/M2/M2.5-sources.json",
+        "exports/78c6722e/M2/M2.6.json",
+        "exports/78c6722e/M2/M2.6.md",
+        "exports/78c6722e/M2/M2.6-sources.json",
+        "exports/78c6722e/M2/M2.md"
+      ]
+    },
+    "M3": {
+      "status": "incomplete",
+      "files": [
+        "exports/78c6722e/M3/original-references.json",
+        "exports/78c6722e/M3/esco.zip",
+        "exports/78c6722e/M3/source.json",
+        "exports/78c6722e/M3/M3.md",
+        "exports/78c6722e/M3/classification.json"
+      ]
+    },
+    "M4": {
+      "status": "incomplete",
+      "files": [
+        "exports/78c6722e/M4/structure.json",
+        "exports/78c6722e/M4/M4.md"
+      ]
+    },
+    "M5": {
+      "status": "incomplete",
+      "files": [
+        "exports/78c6722e/M5/M5.json",
+        "exports/78c6722e/M5/M5.md"
+      ]
+    },
+    "M6": {
+      "status": "incomplete",
+      "files": [
+        "exports/78c6722e/M6/M6.json",
+        "exports/78c6722e/M6/M6.md"
+      ]
+    },
+    "M7": {
+      "status": "incomplete",
+      "files": [
+        "exports/78c6722e/M7/M7.json",
+        "exports/78c6722e/M7/M7.md"
+      ]
+    },
+    "M8": {
+      "status": "incomplete",
+      "files": [
+        "exports/78c6722e/M8/state-template.json",
+        "exports/78c6722e/M8/M8.md"
+      ]
+    },
+    "M9": {
+      "status": "incomplete",
+      "files": [
+        "exports/78c6722e/M9/design-boundary.md",
+        "exports/78c6722e/M9/prototype-boundary.md"
+      ]
+    }
+  },
+  "files": [],
+  "skills": [],
+  "mcp": [],
+  "designScope": "M1-M9 definitions only; implementation and professional acceptance remain incomplete",
+  "instanceId": "1bcb0912-343f-4f35-9e3c-5799b1f47a00",
+  "date": "2026-10-14",
+  "displayName": "私人公司对外联络秘书 — ESCO 4120.1 v0.1.0-2026-10-14",
+  "desktopIcon": "assets/agent.ico",
+  "packagingValidation": "structure_and_integrity_only"
+}

@@ -1,0 +1,51 @@
+{
+    "schema":  "uahraf9m-M2-capability/v0.1",
+    "id":  "M2.2",
+    "name":  "商务邮件与回复起草",
+    "status":  "confirmed",
+    "purpose":  "把已确认的联络目的和真实业务资料转化为准确、清楚、得体的邮件草稿。",
+    "m1Basis":  [
+                    "M1.scopeIn.002",
+                    "M1.responsibilities.002"
+                ],
+    "inputs":  [
+                   "事项摘要",
+                   "业务事实及出处",
+                   "收件对象和沟通语言要求"
+               ],
+    "outputs":  [
+                    "带版本的邮件草稿",
+                    "待确认事实和附件清单"
+                ],
+    "preconditions":  [
+                          "已完成事项整理",
+                          "收件对象和目的明确或缺口已列出"
+                      ],
+    "completionConditions":  [
+                                 "主题、正文与沟通目的一致",
+                                 "所有业务主张可追溯",
+                                 "未知信息不伪装成事实"
+                             ],
+    "failureConditions":  [
+                              "关键事实或身份缺失",
+                              "要求超出公司指示范围"
+                          ],
+    "humanConfirmation":  [
+                              "确认公司身份、签名、业务承诺和敏感内容"
+                          ],
+    "dependencies":  [
+                         "M2.1"
+                     ],
+    "boundaries":  [
+                       "草稿不等于已发送",
+                       "不自行承诺价格、合同或付款"
+                   ],
+    "createdAt":  "2026-10-14T03:37:41.1431498Z",
+    "confirmedAt":  "2026-10-14T03:37:45.6902637Z",
+    "confirmation":  {
+                         "method":  "automated_contract_check",
+                         "checker":  "02-m2-check.ps1",
+                         "version":  "0.1",
+                         "sourceDraftHash":  "023b5600f7834e266f568ef8b1a36bc66972c3f9c781571d02910b807da581fe"
+                     }
+}

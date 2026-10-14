@@ -1,0 +1,141 @@
+{
+    "schema":  "uahraf9m-M7/v0.1",
+    "instanceId":  "private-company-secretary",
+    "taskId":  "external-communications-design",
+    "basisHash":  "cb073bdfad0e4fafd4bf6ffc34b7d5c97c8351d3d3028f5bb3b0b573796703cc",
+    "interfaces":  [
+                       {
+                           "id":  "M7.1",
+                           "name":  "公司所有者指示与审阅",
+                           "purpose":  "接收真实指示、澄清资料、审阅草稿、确认业务决定并返回当前状态。",
+                           "kind":  "human",
+                           "endpoint":  "当前用户对话；专用秘书会话可加载本 Agent 设计",
+                           "version":  "对话接口定义 v0.1",
+                           "invocation":  "以可审阅文字展示实际内容和缺口，记录真实用户决定；不由模型代填批准。",
+                           "nodeRefs":  [
+                                            "M6.1",
+                                            "M6.2",
+                                            "M6.3",
+                                            "M6.5",
+                                            "M6.6",
+                                            "M6.7"
+                                        ],
+                           "inputs":  [
+                                          "真实用户指示",
+                                          "邮件草稿及版本",
+                                          "待决事项"
+                                      ],
+                           "outputs":  [
+                                           "真实指示或决定",
+                                           "补充资料",
+                                           "待处理事项"
+                                       ],
+                           "operations":  [
+                                              "receive_instruction",
+                                              "request_review",
+                                              "present_result"
+                                          ],
+                           "dependencies":  [
+                                                "公司所有者实际参与"
+                                            ],
+                           "authentication":  "当前用户会话身份；不构成人类身份独立认证",
+                           "failureBehavior":  "未回复或信息不足保持待确认，不推断批准。",
+                           "availabilityRequirements":  [
+                                                            "用户可以读取完整草稿及缺口",
+                                                            "公司身份与真实业务事实待提供"
+                                                        ],
+                           "requiresApproval":  true
+                       },
+                       {
+                           "id":  "M7.2",
+                           "name":  "公司邮箱读取、草稿与发送接口（待配置）",
+                           "purpose":  "在实际账号和授权范围下读取指定消息、创建草稿、发送最终内容及核对真实回执。",
+                           "kind":  "api",
+                           "endpoint":  "待用户指定邮箱服务及实际连接工具；本版没有确定 API 端点",
+                           "version":  "需求定义 v0.1；服务版本待配置",
+                           "invocation":  "参数和工具名称待实际服务文档核对；读取、草稿和发送分别绑定账号、操作、资源及内容版本，不执行此需求定义。",
+                           "nodeRefs":  [
+                                            "M6.1",
+                                            "M6.2",
+                                            "M6.3",
+                                            "M6.4",
+                                            "M6.5",
+                                            "M6.6"
+                                        ],
+                           "inputs":  [
+                                          "实际账号标识",
+                                          "指定消息或收件资源",
+                                          "最终邮件版本与附件",
+                                          "真实授权记录",
+                                          "发送请求标识"
+                                      ],
+                           "outputs":  [
+                                           "真实消息原件",
+                                           "草稿标识",
+                                           "真实发送回执或失败/结果不明"
+                                       ],
+                           "operations":  [
+                                              "read_message",
+                                              "create_draft",
+                                              "send_message",
+                                              "query_send_result"
+                                          ],
+                           "dependencies":  [
+                                                "实际邮箱服务或 MCP",
+                                                "账号连接",
+                                                "可核对的发送与查询回执"
+                                            ],
+                           "authentication":  "服务认可的账号认证方式待配置；凭据不写入职业定义或沟通档案",
+                           "failureBehavior":  "没有连接或权限时返回缺口；发送结果不明时先核对，不自动重复发送。",
+                           "availabilityRequirements":  [
+                                                            "确定实际服务和接口参数",
+                                                            "核实指定账号的读写范围",
+                                                            "有用户明确允许的测试场景",
+                                                            "能取得真实消息标识及调用回执"
+                                                        ],
+                           "requiresApproval":  true
+                       },
+                       {
+                           "id":  "M7.3",
+                           "name":  "参与人可用时间与会面确认",
+                           "purpose":  "由所有者提供或核对参与人、时间、时区及最终安排，在未接入日历时形成候选方案。",
+                           "kind":  "human",
+                           "endpoint":  "用户提供的真实参与人可用时间与确认记录",
+                           "version":  "会面协调定义 v0.1",
+                           "invocation":  "向用户展示候选时间及时区冲突，收到真实决定后记录确认；发送邀请另需对应邮箱或日历权限。",
+                           "nodeRefs":  [
+                                            "M6.5",
+                                            "M6.6"
+                                        ],
+                           "inputs":  [
+                                          "实际参与人",
+                                          "真实可用时间及时区",
+                                          "候选会面方案"
+                                      ],
+                           "outputs":  [
+                                           "实际确认或变更",
+                                           "未决时间冲突"
+                                       ],
+                           "operations":  [
+                                              "receive_availability",
+                                              "request_confirmation"
+                                          ],
+                           "dependencies":  [
+                                                "所有者或参与人提供真实时间"
+                                            ],
+                           "authentication":  "当前对话提供的信息；第三方可用时间须记录出处",
+                           "failureBehavior":  "缺时区或冲突保持未确认，不虚构邀请发送。",
+                           "availabilityRequirements":  [
+                                                            "核对时区与参与人",
+                                                            "实际邀请接口尚未接入"
+                                                        ],
+                           "requiresApproval":  true
+                       }
+                   ],
+    "gaps":  [
+                 "M7.2 仅需求定义，邮箱服务、连接和授权均未配置",
+                 "未配置独立日历或后台调度程序",
+                 "当前工作区定义不自动变成常驻职业执行进程",
+                 "未安装新工具、未保存邮箱凭据、未访问或发送实际邮件"
+             ]
+}

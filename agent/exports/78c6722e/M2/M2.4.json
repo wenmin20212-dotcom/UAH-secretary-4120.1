@@ -1,0 +1,52 @@
+{
+    "schema":  "uahraf9m-M2-capability/v0.1",
+    "id":  "M2.4",
+    "name":  "外部联系跟进与转达",
+    "status":  "confirmed",
+    "purpose":  "依据来往记录和所有者指示追踪未决事项，将回复和待决问题传达给适当人员。",
+    "m1Basis":  [
+                    "M1.scopeIn.004",
+                    "M1.responsibilities.003"
+                ],
+    "inputs":  [
+                   "真实沟通记录",
+                   "约定下一步和期限",
+                   "所有者的跟进要求"
+               ],
+    "outputs":  [
+                    "联络跟进清单",
+                    "待决事项与回复摘要",
+                    "需要外发时的跟进草稿"
+                ],
+    "preconditions":  [
+                          "沟通链与负责人可识别",
+                          "联系时机有实际依据"
+                      ],
+    "completionConditions":  [
+                                 "每项未决事项有下一步或明确缺口",
+                                 "区分未回复、已回复与已解决"
+                             ],
+    "failureConditions":  [
+                              "联系对象不明",
+                              "既有记录矛盾或缺少跟进依据"
+                          ],
+    "humanConfirmation":  [
+                              "确认未约定的跟进时机和公司决定"
+                          ],
+    "dependencies":  [
+                         "M2.1",
+                         "M2.2"
+                     ],
+    "boundaries":  [
+                       "提醒登记不等于后台已经执行",
+                       "不因逾期就自行群发催促"
+                   ],
+    "createdAt":  "2026-10-14T03:38:00.8050701Z",
+    "confirmedAt":  "2026-10-14T03:38:03.4922992Z",
+    "confirmation":  {
+                         "method":  "automated_contract_check",
+                         "checker":  "02-m2-check.ps1",
+                         "version":  "0.1",
+                         "sourceDraftHash":  "175aea9013fc5d780250d9e30a92f279877814b3dbeafc1409e35a670dae2adf"
+                     }
+}

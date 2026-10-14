@@ -1,0 +1,50 @@
+{
+    "schema":  "uahraf9m-M2-capability/v0.1",
+    "id":  "M2.5",
+    "name":  "会面与沟通时间协调",
+    "status":  "confirmed",
+    "purpose":  "核对参与人可用时间、时区和安排限制，形成待确认会面方案并准确转达最终安排。",
+    "m1Basis":  [
+                    "M1.scopeIn.004",
+                    "M1.humanResponsibilities.001"
+                ],
+    "inputs":  [
+                   "参与对象与沟通目的",
+                   "真实可用时间和时区",
+                   "所有者安排要求"
+               ],
+    "outputs":  [
+                    "候选会面方案",
+                    "确认后的安排或未确认项"
+                ],
+    "preconditions":  [
+                          "参与人和时区可确认",
+                          "可用时间有实际来源"
+                      ],
+    "completionConditions":  [
+                                 "参与人、时间、时区和方式一致",
+                                 "未获确认的安排明确标为候选"
+                             ],
+    "failureConditions":  [
+                              "时间冲突",
+                              "关键参与人或时区未确定"
+                          ],
+    "humanConfirmation":  [
+                              "确认最终会面安排及变更"
+                          ],
+    "dependencies":  [
+                         "M2.1"
+                     ],
+    "boundaries":  [
+                       "不把候选时间写成已约定",
+                       "日历写入和邀请发送需要对应权限"
+                   ],
+    "createdAt":  "2026-10-14T03:38:08.6575454Z",
+    "confirmedAt":  "2026-10-14T03:38:11.4064239Z",
+    "confirmation":  {
+                         "method":  "automated_contract_check",
+                         "checker":  "02-m2-check.ps1",
+                         "version":  "0.1",
+                         "sourceDraftHash":  "6e6a905b9d82a461bbd99a871a5158150fd397213e50108f5df9854d888924b6"
+                     }
+}

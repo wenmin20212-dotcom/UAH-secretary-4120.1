@@ -1,0 +1,136 @@
+{
+  "schema": "uah-incubator-M3-standard-source/v0.1",
+  "datasetId": "esco-v1.2.1-en",
+  "version": "1.2.1",
+  "language": "en",
+  "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+  "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip",
+  "documentationUrl": "https://esco.ec.europa.eu/en/structure-esco-downloadable-datasets",
+  "retrievedAt": "2026-10-13T12:42:58.067Z",
+  "archive": {
+    "path": "original/esco.zip",
+    "bytes": 10045670,
+    "sha256": "f9761b0b52be1828b38a3e5e0ae59a93a7b0ce358bc800f52f57a8b002adeb3e"
+  },
+  "files": [
+    {
+      "name": "ISCOGroups_en.csv",
+      "path": "original/csv/ISCOGroups_en.csv",
+      "bytes": 966601,
+      "sha256": "7a829bb6fddccbdb028d3ae69d822f2f1ba581522667f6185949c6d0788eaa1c"
+    },
+    {
+      "name": "broaderRelationsOccPillar_en.csv",
+      "path": "original/csv/broaderRelationsOccPillar_en.csv",
+      "bytes": 730008,
+      "sha256": "b6b457a7b248e87734a5ef01f59f0bd4d083b6ad5e9251f6ed4cce51d69c6383"
+    },
+    {
+      "name": "broaderRelationsSkillPillar_en.csv",
+      "path": "original/csv/broaderRelationsSkillPillar_en.csv",
+      "bytes": 4944592,
+      "sha256": "56b70f4852b1f53c6192c979310c34c93f95436621d907083cf0d55b51d8e42d"
+    },
+    {
+      "name": "conceptSchemes_en.csv",
+      "path": "original/csv/conceptSchemes_en.csv",
+      "bytes": 941042,
+      "sha256": "4e5b4800e6cdc2013df0f22dfff72c0499cdce8bf9cfa333d6c4c14879dce517"
+    },
+    {
+      "name": "dictionary_en.csv",
+      "path": "original/csv/dictionary_en.csv",
+      "bytes": 19719,
+      "sha256": "f20857239063a52af0a7668ae5b178144cb33ff626519fb50451457d59b54fec"
+    },
+    {
+      "name": "digCompSkillsCollection_en.csv",
+      "path": "original/csv/digCompSkillsCollection_en.csv",
+      "bytes": 18759,
+      "sha256": "814108ed9bc93268abc6d717bbd36f876a73180da2ff1a89b4f867c50e1ae9d4"
+    },
+    {
+      "name": "digitalSkillsCollection_en.csv",
+      "path": "original/csv/digitalSkillsCollection_en.csv",
+      "bytes": 811101,
+      "sha256": "9f2ee9179f0720826cbfc65627bd3642926ba4dfb3bf29250f22cb232c225b1e"
+    },
+    {
+      "name": "greenShareOcc_en.csv",
+      "path": "original/csv/greenShareOcc_en.csv",
+      "bytes": 452849,
+      "sha256": "b181bde83460dbd766268893dd6db4393006c15d788ae4c0f3f41c49719ab16a"
+    },
+    {
+      "name": "greenSkillsCollection_en.csv",
+      "path": "original/csv/greenSkillsCollection_en.csv",
+      "bytes": 455125,
+      "sha256": "502eaee4f496e7576ee078a76d5da03fa14f5476f740ca965ca2ef596d9683ab"
+    },
+    {
+      "name": "languageSkillsCollection_en.csv",
+      "path": "original/csv/languageSkillsCollection_en.csv",
+      "bytes": 144359,
+      "sha256": "93b2ca9ef1300a34c2262753e33dbcf6a3a17ad7d2afe435849649818ec6cf33"
+    },
+    {
+      "name": "occupationSkillRelations_en.csv",
+      "path": "original/csv/occupationSkillRelations_en.csv",
+      "bytes": 27986628,
+      "sha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44"
+    },
+    {
+      "name": "occupations_en.csv",
+      "path": "original/csv/occupations_en.csv",
+      "bytes": 3047703,
+      "sha256": "8034348d84b6d1dd24a5bcf9609186ecbba0a85457ee2eacd65bddec33a51b4a"
+    },
+    {
+      "name": "researchOccupationsCollection_en.csv",
+      "path": "original/csv/researchOccupationsCollection_en.csv",
+      "bytes": 126900,
+      "sha256": "85993f6460b6bb008985cd40341c3d373fac9989d854f76d2d3c6fc8dc2d6d1a"
+    },
+    {
+      "name": "researchSkillsCollection_en.csv",
+      "path": "original/csv/researchSkillsCollection_en.csv",
+      "bytes": 27033,
+      "sha256": "fd9b6bd45df2bad68e50d963ac366b5c7dec2917e178e69003b6d94bb1e41d13"
+    },
+    {
+      "name": "skillGroups_en.csv",
+      "path": "original/csv/skillGroups_en.csv",
+      "bytes": 340935,
+      "sha256": "644b68a174299eb05336eec36e0716c4671a0c6bdd4ac268803ecd6533dc739d"
+    },
+    {
+      "name": "skillSkillRelations_en.csv",
+      "path": "original/csv/skillSkillRelations_en.csv",
+      "bytes": 1031275,
+      "sha256": "64a5f8fb7b8dda4932ff06db4738ce1beed3906e45a49b14453349056c609439"
+    },
+    {
+      "name": "skillsHierarchy_en.csv",
+      "path": "original/csv/skillsHierarchy_en.csv",
+      "bytes": 381733,
+      "sha256": "295133872c6be7b7560de943efa4a6aab833a1b15af4d60c03b050ab0a75edcb"
+    },
+    {
+      "name": "skills_en.csv",
+      "path": "original/csv/skills_en.csv",
+      "bytes": 9302000,
+      "sha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950"
+    },
+    {
+      "name": "transversalSkillsCollection_en.csv",
+      "path": "original/csv/transversalSkillsCollection_en.csv",
+      "bytes": 57293,
+      "sha256": "40bd1884f1c62b91ab86b6c87d7fab11b082c17b425975d0d178d1b5cb5e01ca"
+    }
+  ],
+  "csvBytes": 51785655,
+  "storage": "original_source_and_mechanical_indexes_only",
+  "generatedKnowledge": false,
+  "reuseNotice": "European Union source attribution retained; see official European Commission reuse notice. ESCO API software EUPL license is distinct from classification data.",
+  "reuseUrl": "https://commission.europa.eu/legal-notice_en"
+}

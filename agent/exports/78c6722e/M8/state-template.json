@@ -1,0 +1,10 @@
+{
+  "schema": "uah-incubator-child-state-template/v0.1",
+  "status": "ready",
+  "currentNodeId": "",
+  "nextAction": "Review the exported design and configure required tools",
+  "memories": [],
+  "authorizations": [],
+  "usage": [],
+  "notice": "Blank template, not migrated task execution state."
+}

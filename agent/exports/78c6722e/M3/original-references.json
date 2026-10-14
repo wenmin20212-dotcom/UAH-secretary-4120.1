@@ -1,0 +1,2408 @@
+{
+  "schema": "uah-incubator-portable-original-references/v0.1",
+  "originals": [
+    {
+      "occupation": {
+        "datasetId": "esco-v1.2.1-en",
+        "record": {
+          "conceptType": "Occupation",
+          "conceptUri": "http://data.europa.eu/esco/occupation/5ac377d2-e1d0-4911-a299-b4ef2782a0ba",
+          "iscoGroup": "4120",
+          "preferredLabel": "secretary",
+          "altLabels": "administrative assistant\noffice receptionist\npersonal assistant\ncorporate secretary\noffice administrative assistant\nexecutive secretary\nassistant\noffice worker\nhead secretary\nfront office secretary\nsecretarial assistant\ntypist\ncity administrator secretary\nschool secretary\nprivate secretary\nfront office clerk",
+          "hiddenLabels": "",
+          "status": "released",
+          "modifiedDate": "2024-01-16T11:29:19.552Z",
+          "regulatedProfessionNote": "http://data.europa.eu/esco/regulated-professions/unregulated",
+          "scopeNote": "",
+          "definition": "",
+          "inScheme": "http://data.europa.eu/esco/concept-scheme/member-occupations,\nhttp://data.europa.eu/esco/concept-scheme/occupations",
+          "description": "Secretaries perform a variety of administrative tasks to help keep an organisation run smoothly. They answer telephone calls, draft and send e-mails, maintain diaries, arrange appointments, take messages, file documents, organise and service meetings, and manage databases.",
+          "code": "4120.1",
+          "naceCode": "http://data.europa.eu/ux2/nace2.1/821"
+        },
+        "citation": {
+          "datasetId": "esco-v1.2.1-en",
+          "version": "1.2.1",
+          "language": "en",
+          "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+          "file": "occupations_en.csv",
+          "fileSha256": "8034348d84b6d1dd24a5bcf9609186ecbba0a85457ee2eacd65bddec33a51b4a",
+          "recordNumber": 1140,
+          "sourceUri": "http://data.europa.eu/esco/occupation/5ac377d2-e1d0-4911-a299-b4ef2782a0ba",
+          "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+        },
+        "originalVariants": [],
+        "iscoGroup": {
+          "conceptType": "ISCOGroup",
+          "conceptUri": "http://data.europa.eu/esco/isco/C4120",
+          "code": "4120",
+          "preferredLabel": "Secretaries (general)",
+          "status": "released",
+          "altLabels": "",
+          "inScheme": "http://data.europa.eu/esco/concept-scheme/occupations,\nhttp://data.europa.eu/esco/concept-scheme/isco",
+          "description": "Secretaries (general) use typewriters, personal computers or other word processing equipment to transcribe correspondence and other documents, check and format documents prepared by other staff, deal with incoming and outgoing mail, screen requests for meetings or appointments, and perform a variety of administrative support tasks.\nTasks include -\n(a) checking, formatting and transcribing correspondence, minutes and reports from dictation, electronic documents or written drafts to conform to office standards, using typewriter, personal computer or other word processing equipment;\n(b) using various computer software packages including spreadsheets to provide administrative support;\n(c) dealing with incoming or outgoing mail;\n(d) scanning, recording and distributing mail, correspondence and other documents;\n(e) screening requests for meetings or appointments and helping to organize meetings;\n(f) screening and recording staff members’ leave and other entitlements;\n(g) organizing and supervising filing systems;\n(h) dealing with routine correspondence on their own initiative.\nExamples of the occupations classified here:\n- Secretary\n- Typing secretary - Word processing secretary\nSome related occupations classified elsewhere:\n- Administrative secretary - 3343\n- Executive assistant - 3343\n- Legal secretary - 3342\n- Medical secretary - 3344."
+        },
+        "relationsTotal": 43,
+        "offset": 0,
+        "relations": [
+          {
+            "recordNumber": 46588,
+            "relationType": "essential",
+            "sourceSkillType": "knowledge",
+            "skillType": "knowledge",
+            "skillUri": "http://data.europa.eu/esco/skill/f75b740c-b36c-495e-bc67-efe347bbc6b5",
+            "label": "company policies",
+            "description": "The set of rules that govern the activity of a company.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 13463,
+              "sourceUri": "http://data.europa.eu/esco/skill/f75b740c-b36c-495e-bc67-efe347bbc6b5",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46588
+            }
+          },
+          {
+            "recordNumber": 46589,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+            "label": "use spreadsheets software",
+            "description": "Use software tools to create and edit tabular data to carry out mathematical calculations, organise data and information, create diagrams based on data and to retrieve them.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 1362,
+              "sourceUri": "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46589
+            }
+          },
+          {
+            "recordNumber": 46590,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/1f6eac42-e5aa-4fa7-a75d-a4eea12c618e",
+            "label": "disseminate internal communications",
+            "description": "Disseminate internal communications using the different communication channels that a company has at its disposal.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 1698,
+              "sourceUri": "http://data.europa.eu/esco/skill/1f6eac42-e5aa-4fa7-a75d-a4eea12c618e",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46590
+            }
+          },
+          {
+            "recordNumber": 46591,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/3838a64c-78dc-4f3f-a0c0-9f604e33eefd",
+            "label": "maintain internal communication systems",
+            "description": "Maintain an effective internal communication system among employees and department managers.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 3098,
+              "sourceUri": "http://data.europa.eu/esco/skill/3838a64c-78dc-4f3f-a0c0-9f604e33eefd",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46591
+            }
+          },
+          {
+            "recordNumber": 46592,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/3d427a49-4f85-42cd-8a92-62d4a34f41a1",
+            "label": "file documents",
+            "description": "Create a filing system. Write a document catalogue. Label documents etc.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 3370,
+              "sourceUri": "http://data.europa.eu/esco/skill/3d427a49-4f85-42cd-8a92-62d4a34f41a1",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46592
+            }
+          },
+          {
+            "recordNumber": 46593,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/3e04e39d-9eb6-4167-ad2d-e3413f647e4e",
+            "label": "organise business documents",
+            "description": "Put together documents coming from the photocopier, the mail, or the daily operations of businesses.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 3407,
+              "sourceUri": "http://data.europa.eu/esco/skill/3e04e39d-9eb6-4167-ad2d-e3413f647e4e",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46593
+            }
+          },
+          {
+            "recordNumber": 46594,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/40005305-4541-4da7-9f76-abab74f0bc51",
+            "label": "monitor staff absences",
+            "description": "Keep an overview of the employees's vacations, sick leaves and absences, register these in the agenda and file the necessary documents and certificates.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 3513,
+              "sourceUri": "http://data.europa.eu/esco/skill/40005305-4541-4da7-9f76-abab74f0bc51",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46594
+            }
+          },
+          {
+            "recordNumber": 46595,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/43b13058-68d0-40c6-8031-caf5a7b7d20c",
+            "label": "keep task records",
+            "description": "Organise and classify records of prepared reports and correspondence related to the performed work and progress records of tasks.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 3700,
+              "sourceUri": "http://data.europa.eu/esco/skill/43b13058-68d0-40c6-8031-caf5a7b7d20c",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46595
+            }
+          },
+          {
+            "recordNumber": 46596,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/48391ec6-42ba-4093-acf4-c7673b0c07f4",
+            "label": "process commissioned instructions",
+            "description": "Process instructions, usually oral ones, provided by managers and directives on actions required to be made. Take note, inquire, and take action on the commissioned requests.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 3934,
+              "sourceUri": "http://data.europa.eu/esco/skill/48391ec6-42ba-4093-acf4-c7673b0c07f4",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46596
+            }
+          },
+          {
+            "recordNumber": 46597,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/76f22707-8d30-453f-9eb7-3376e2960311",
+            "label": "handle mail",
+            "description": "Handle mail considering data protection issues, health and safety requirements, and specifications of different kinds of mail.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 6564,
+              "sourceUri": "http://data.europa.eu/esco/skill/76f22707-8d30-453f-9eb7-3376e2960311",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46597
+            }
+          },
+          {
+            "recordNumber": 46598,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/7c3865d1-e5a9-4043-a7a4-2e9e30468c0b",
+            "label": "perform office routine activities",
+            "description": "Program, prepare, and perform activities required to be performed everyday in offices such as mailing, receiving supplies, updating managers and employees, and keeping operations running smoothly.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 6833,
+              "sourceUri": "http://data.europa.eu/esco/skill/7c3865d1-e5a9-4043-a7a4-2e9e30468c0b",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46598
+            }
+          },
+          {
+            "recordNumber": 46599,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/7ec3c77b-1955-4397-9bd3-7b7b9d0b8531",
+            "label": "manage personnel agenda",
+            "description": "Schedule and confirm appointments for the personnel of the office, mostly managers and directive employees, with external parties.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 6988,
+              "sourceUri": "http://data.europa.eu/esco/skill/7ec3c77b-1955-4397-9bd3-7b7b9d0b8531",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46599
+            }
+          },
+          {
+            "recordNumber": 46600,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/81633a44-f1db-4a01-a940-804c6905e330",
+            "label": "use word processing software",
+            "description": "Use computer software applications for composition, editing, formatting, and printing of any sort of written material.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 7131,
+              "sourceUri": "http://data.europa.eu/esco/skill/81633a44-f1db-4a01-a940-804c6905e330",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46600
+            }
+          },
+          {
+            "recordNumber": 46601,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/81dc035c-921b-4fea-a453-94538e86097c",
+            "label": "disseminate messages to people",
+            "description": "Receive, process, and pass messages to people coming from phone calls, faxes, postal, and emails.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 7164,
+              "sourceUri": "http://data.europa.eu/esco/skill/81dc035c-921b-4fea-a453-94538e86097c",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46601
+            }
+          },
+          {
+            "recordNumber": 46602,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/8d49f760-3765-4612-8d40-a2bdd50738fe",
+            "label": "fill out forms",
+            "description": "Fill out forms of a different nature with accurate information, legible calligraphy, and within a timely manner.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 7777,
+              "sourceUri": "http://data.europa.eu/esco/skill/8d49f760-3765-4612-8d40-a2bdd50738fe",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46602
+            }
+          },
+          {
+            "recordNumber": 46603,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/933e7ccf-5d56-46ba-aca4-857f826a6b3a",
+            "label": "administer appointments",
+            "description": "Accept, schedule and cancel appointments.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 8108,
+              "sourceUri": "http://data.europa.eu/esco/skill/933e7ccf-5d56-46ba-aca4-857f826a6b3a",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46603
+            }
+          },
+          {
+            "recordNumber": 46604,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/b769f524-0f25-44d7-8538-5c46710a040e",
+            "label": "manage digital documents",
+            "description": "Manage various data formats and files by naming, publishing, transforming and sharing files and documents and transforming file formats.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 9997,
+              "sourceUri": "http://data.europa.eu/esco/skill/b769f524-0f25-44d7-8538-5c46710a040e",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46604
+            }
+          },
+          {
+            "recordNumber": 46605,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/c58050e1-0774-4097-93d2-07dd7ba6a27a",
+            "label": "organise facilities for office personnel",
+            "description": "Manage the booking schedule for conferences and meetings of internal or external nature. Shop around and book reservations for travelling or hosting for office personnel.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 10765,
+              "sourceUri": "http://data.europa.eu/esco/skill/c58050e1-0774-4097-93d2-07dd7ba6a27a",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46605
+            }
+          },
+          {
+            "recordNumber": 46606,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/da56feea-941c-4ff6-b573-bb16ccbde670",
+            "label": "communicate schedules to the people concerned",
+            "description": "Convey relevant scheduling information. Present the schedule to the persons concerned, and inform them of any schedule changes. Approve the schedules and verify that everyone has understood the information sent to them.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 11890,
+              "sourceUri": "http://data.europa.eu/esco/skill/da56feea-941c-4ff6-b573-bb16ccbde670",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46606
+            }
+          },
+          {
+            "recordNumber": 46607,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/de2f0ce8-f8d6-48c5-a213-4d065251cecf",
+            "label": "communicate by telephone",
+            "description": "Liaise via telephone by making and answering calls in a timely, professional and polite manner.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 12092,
+              "sourceUri": "http://data.europa.eu/esco/skill/de2f0ce8-f8d6-48c5-a213-4d065251cecf",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46607
+            }
+          },
+          {
+            "recordNumber": 46608,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/ec0bbf39-0edd-4015-a2c3-82ad563ce3a8",
+            "label": "draft corporate emails",
+            "description": "Prepare, compile, and write mails with the adequate information and an appropriate language to make internal or external communications.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 12817,
+              "sourceUri": "http://data.europa.eu/esco/skill/ec0bbf39-0edd-4015-a2c3-82ad563ce3a8",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46608
+            }
+          },
+          {
+            "recordNumber": 46609,
+            "relationType": "essential",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/f683ae1d-cb7c-4aa1-b9fe-205e1bd23535",
+            "label": "use microsoft office",
+            "description": "Use the standard programs contained in Microsoft Office. Create a document and do basic formatting, insert page breaks, create headers or footers, and insert graphics, create automatically generated tables of contents and merge form letters from a database of addresses. Create auto-calculating spreadsheets, create images, and sort and filter data tables.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 13419,
+              "sourceUri": "http://data.europa.eu/esco/skill/f683ae1d-cb7c-4aa1-b9fe-205e1bd23535",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46609
+            }
+          },
+          {
+            "recordNumber": 46610,
+            "relationType": "optional",
+            "sourceSkillType": "knowledge",
+            "skillType": "knowledge",
+            "skillUri": "http://data.europa.eu/esco/skill/57beaad1-7c5e-4b17-a35f-31f49e1d7378",
+            "label": "education law",
+            "description": "The area of law and legislation that concerns education policies and the people working in the sector in an (inter)national context, such as teachers, students, and administrators.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 4821,
+              "sourceUri": "http://data.europa.eu/esco/skill/57beaad1-7c5e-4b17-a35f-31f49e1d7378",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46610
+            }
+          },
+          {
+            "recordNumber": 46611,
+            "relationType": "optional",
+            "sourceSkillType": "knowledge",
+            "skillType": "knowledge",
+            "skillUri": "http://data.europa.eu/esco/skill/880c54f9-866e-4f37-b5fa-25ef8a7d49b6",
+            "label": "accounting techniques",
+            "description": "The techniques of recording and summarising business and financial transactions and analysing, verifying, and reporting the results.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 7494,
+              "sourceUri": "http://data.europa.eu/esco/skill/880c54f9-866e-4f37-b5fa-25ef8a7d49b6",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46611
+            }
+          },
+          {
+            "recordNumber": 46612,
+            "relationType": "optional",
+            "sourceSkillType": "knowledge",
+            "skillType": "knowledge",
+            "skillUri": "http://data.europa.eu/esco/skill/b3f22ab4-b553-439d-80a2-5b8ae6d11e0d",
+            "label": "labour law",
+            "description": "The field of law that is concerned with the regulation of the relationship between employers, employees, trade unions, and the government.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 9811,
+              "sourceUri": "http://data.europa.eu/esco/skill/b3f22ab4-b553-439d-80a2-5b8ae6d11e0d",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46612
+            }
+          },
+          {
+            "recordNumber": 46613,
+            "relationType": "optional",
+            "sourceSkillType": "knowledge",
+            "skillType": "knowledge",
+            "skillUri": "http://data.europa.eu/esco/skill/efa7a6e9-3018-4125-8ac5-5b5d513bcba7",
+            "label": "education administration",
+            "description": "The processes related to the administrative areas of an education institution, its director, employees, and students.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 13016,
+              "sourceUri": "http://data.europa.eu/esco/skill/efa7a6e9-3018-4125-8ac5-5b5d513bcba7",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46613
+            }
+          },
+          {
+            "recordNumber": 46614,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/0167ee96-f478-4383-afe6-aabf387da5b3",
+            "label": "liaise with typists",
+            "description": "Give instructions to typists about the addressees, the appropriate format, the number of copies required, etc. for them to type the final documents.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 62,
+              "sourceUri": "http://data.europa.eu/esco/skill/0167ee96-f478-4383-afe6-aabf387da5b3",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46614
+            }
+          },
+          {
+            "recordNumber": 46615,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c",
+            "label": "prepare presentation material",
+            "description": "Prepare the documents, slide shows, posters and any other media needed for specific audiences.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 1496,
+              "sourceUri": "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46615
+            }
+          },
+          {
+            "recordNumber": 46616,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea",
+            "label": "manage budgets",
+            "description": "Plan, monitor, report on the budget and prepare set production budgets.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 1829,
+              "sourceUri": "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46616
+            }
+          },
+          {
+            "recordNumber": 46617,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/25f46432-5ee9-4cb7-a18b-d2ee41761823",
+            "label": "manage needs for stationery items",
+            "description": "Watch, analyse, and provide sufficient and required stationery items for business facilities to run operations smoothly.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 2062,
+              "sourceUri": "http://data.europa.eu/esco/skill/25f46432-5ee9-4cb7-a18b-d2ee41761823",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46617
+            }
+          },
+          {
+            "recordNumber": 46618,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/382ed835-8958-4d86-8471-cff55c6df3e7",
+            "label": "organise travel arrangements for staff",
+            "description": "Plan all arrangements for business travels including preparing schedules and booking transportation, dinners and accommodation.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 3096,
+              "sourceUri": "http://data.europa.eu/esco/skill/382ed835-8958-4d86-8471-cff55c6df3e7",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46618
+            }
+          },
+          {
+            "recordNumber": 46619,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/4adb861b-3ad8-4f0d-9343-decf59748d56",
+            "label": "demonstrate professional attitude to clients",
+            "description": "Demonstrate responsibility and professional duty of care to clients which will include communication skills and a focus of customer care orientation.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 4073,
+              "sourceUri": "http://data.europa.eu/esco/skill/4adb861b-3ad8-4f0d-9343-decf59748d56",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46619
+            }
+          },
+          {
+            "recordNumber": 46620,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/4e883275-9f45-4336-8e68-4b58f943c532",
+            "label": "place orders for printed paper goods",
+            "description": "Communicate with suppliers and place orders for printed paper goods such as newspapers, magazines, books and stationery products for the store.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 4296,
+              "sourceUri": "http://data.europa.eu/esco/skill/4e883275-9f45-4336-8e68-4b58f943c532",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46620
+            }
+          },
+          {
+            "recordNumber": 46621,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/5fa6cd2f-9bab-4afa-a184-2d2f1401b770",
+            "label": "write meeting reports",
+            "description": "Write complete reports based on minutes taken during a meeting in order to communicate the important points which were discussed, and the decisions which were made, to the appropriate people.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 5255,
+              "sourceUri": "http://data.europa.eu/esco/skill/5fa6cd2f-9bab-4afa-a184-2d2f1401b770",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46621
+            }
+          },
+          {
+            "recordNumber": 46622,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/63321ecf-4fc6-44d9-88f1-5373a4f3038a",
+            "label": "handle petty cash",
+            "description": "Handle petty cash for minor expenses and transactions required for the daily running of a business.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 5462,
+              "sourceUri": "http://data.europa.eu/esco/skill/63321ecf-4fc6-44d9-88f1-5373a4f3038a",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46622
+            }
+          },
+          {
+            "recordNumber": 46623,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/695c3249-18e7-4435-bdb8-54a16011159d",
+            "label": "develop documentation in accordance with legal requirements",
+            "description": "Create professionally written content describing products, applications, components, functions or services in compliance with legal requirements and internal or external standards.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 5799,
+              "sourceUri": "http://data.europa.eu/esco/skill/695c3249-18e7-4435-bdb8-54a16011159d",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46623
+            }
+          },
+          {
+            "recordNumber": 46624,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/71dde84c-0058-4c52-a556-523369333db8",
+            "label": "use office systems",
+            "description": "Make appropriate and timely use of office systems used in business facilities depending on the aim, whether for the collection of messages, client information storage, or agenda scheduling. It includes administration of systems such as customer relationship management, vendor management, storage, and voicemail systems.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 6278,
+              "sourceUri": "http://data.europa.eu/esco/skill/71dde84c-0058-4c52-a556-523369333db8",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46624
+            }
+          },
+          {
+            "recordNumber": 46625,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/c1f29568-f2bb-49d2-b6c2-28748bd1629b",
+            "label": "manage online content",
+            "description": "Ensure the website content is up to date, organised, attractive and meets the target audience needs, the requirements of the company and international standards by checking the links, setting the publishing time framework and order.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 10551,
+              "sourceUri": "http://data.europa.eu/esco/skill/c1f29568-f2bb-49d2-b6c2-28748bd1629b",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46625
+            }
+          },
+          {
+            "recordNumber": 46626,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/df1265b9-81fd-4a40-a746-f0442ffbf7ef",
+            "label": "deliver correspondence",
+            "description": "Distribute mail correspondence, newspapers, packages and private messages to customers.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 12137,
+              "sourceUri": "http://data.europa.eu/esco/skill/df1265b9-81fd-4a40-a746-f0442ffbf7ef",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46626
+            }
+          },
+          {
+            "recordNumber": 46627,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/e2e15494-65b9-4af5-8b86-53fb51e7e022",
+            "label": "manage accounts",
+            "description": "Manage the accounts and financial activities of an organisation, supervising that all the documents are correctly maintained, that all the information and calculations are correct, and that proper decisions are being made.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 12327,
+              "sourceUri": "http://data.europa.eu/esco/skill/e2e15494-65b9-4af5-8b86-53fb51e7e022",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46627
+            }
+          },
+          {
+            "recordNumber": 46628,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/e3e42d54-78bd-4337-aa87-bb31a7670c9a",
+            "label": "issue sales invoices",
+            "description": "Prepare the invoice of goods sold or services provided, containing individual prices, the total charge, and the terms. Complete order processing for orders received via telephone, fax and internet and calculate the customer’s final bill.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 12377,
+              "sourceUri": "http://data.europa.eu/esco/skill/e3e42d54-78bd-4337-aa87-bb31a7670c9a",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46628
+            }
+          },
+          {
+            "recordNumber": 46629,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/f7e7ccb6-fadc-4c35-935d-e1040be40dfe",
+            "label": "handle financial transactions",
+            "description": "Administer currencies, financial exchange activities, deposits as well as company and voucher payments. Prepare and manage guest accounts and take payments by cash, credit card and debit card.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 13498,
+              "sourceUri": "http://data.europa.eu/esco/skill/f7e7ccb6-fadc-4c35-935d-e1040be40dfe",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46629
+            }
+          },
+          {
+            "recordNumber": 46630,
+            "relationType": "optional",
+            "sourceSkillType": "skill/competence",
+            "skillType": "skill/competence",
+            "skillUri": "http://data.europa.eu/esco/skill/fdf15b35-9028-4acb-bfd2-43f00a015cd9",
+            "label": "use personal organization software",
+            "description": "Use software tools, such as calendars, to-do lists, time-tracking, contact lists, to help in managing personal efficiency.",
+            "skillCitation": {
+              "datasetId": "esco-v1.2.1-en",
+              "version": "1.2.1",
+              "language": "en",
+              "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+              "file": "skills_en.csv",
+              "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+              "recordNumber": 13845,
+              "sourceUri": "http://data.europa.eu/esco/skill/fdf15b35-9028-4acb-bfd2-43f00a015cd9",
+              "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+            },
+            "relationCitation": {
+              "file": "occupationSkillRelations_en.csv",
+              "fileSha256": "e1a46511f0ef4d505f106f1d41f528ef76d289f93e59d4d0cbaac38986102c44",
+              "recordNumber": 46630
+            }
+          }
+        ],
+        "nextOffset": null
+      },
+      "skills": [
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/f75b740c-b36c-495e-bc67-efe347bbc6b5",
+            "skillType": "knowledge",
+            "reuseLevel": "sector-specific",
+            "preferredLabel": "company policies",
+            "altLabels": "company policy\nemployer's policies\npolicies of a company\ncorporation's policies",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:13.7Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "The set of rules that govern the activity of a company."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 13463,
+            "sourceUri": "http://data.europa.eu/esco/skill/f75b740c-b36c-495e-bc67-efe347bbc6b5",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "use spreadsheets software",
+            "altLabels": "Google Sheets\nPlanMaker\nGnumeric\nOxygenOffice Professional Calc\nResolverOne\nThinkFree Office Calc\nCellPro\nSimple Spreadsheet\nCorel Calculate\nMS Excel\nwikiCalc\nCalligra Sheets\nQT Calc Express\nLotus 1-2-3\nQuantrix Modeler\nDolphinity Planner\nKingsoft Spreadsheet\nSheetster\nAccel Spreadsheet\nLibreOffice Calc\nMicrosoft Office Excel\nuse spreadsheets program\nIBM Lotus Symphony Spreadsheets\nHousehold Budget Worksheet\ndesign spreadsheets\nMyrtle\nAbility Office Spreadsheet\nDhtmlxSpreadsheet\nOOo4Kids Calc\nLotus Improv\nSphygmic Software Spreadsheet\nZoho Sheet",
+            "hiddenLabels": "Gnumeric\nThinkFree Office Calc\nCorel Calculate\nLotus 1-2-3\nKingsoft Spreadsheet\nResolverOne\nSheetster\nDolphinity Planner\nOOo4Kids Calc\nZoho Sheet\nHousehold Budget Worksheet\nMicrosoft Office Excel\nMyrtle\nGoogle Sheets\nPlanMaker\nLotus Improv\nLibreOffice Calc\nIBM Lotus Symphony Spreadsheets\nCalligra Sheets\nAccel Spreadsheet\nSphygmic Software Spreadsheet\nDhtmlxSpreadsheet\nQT Calc Express\nQuantrix Modeler\nAbility Office Spreadsheet\nOxygenOffice Professional Calc\nwikiCalc\nSimple Spreadsheet\nCellPro",
+            "status": "released",
+            "modifiedDate": "2025-04-16T09:58:38.25Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills,\nhttp://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+            "description": "Use software tools to create and edit tabular data to carry out mathematical calculations, organise data and information, create diagrams based on data and to retrieve them."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 1362,
+            "sourceUri": "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/1f6eac42-e5aa-4fa7-a75d-a4eea12c618e",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "disseminate internal communications",
+            "altLabels": "circulate internal communications\ndistribute internal communications\ndisseminating internal communications\ndisseminate communications internally\ndisseminate internal communication",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:09.009Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Disseminate internal communications using the different communication channels that a company has at its disposal."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 1698,
+            "sourceUri": "http://data.europa.eu/esco/skill/1f6eac42-e5aa-4fa7-a75d-a4eea12c618e",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/3838a64c-78dc-4f3f-a0c0-9f604e33eefd",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "maintain internal communication systems",
+            "altLabels": "maintenance of internal communication systems\napply internal communcation skills\ninternal communication systems maintenance\nmaintaining internal communication systems\ncommunicate internally\nmaintain staff communication systems\ncommunicate within the company\nmaintaining of internal communication systems",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:15.235Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Maintain an effective internal communication system among employees and department managers."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 3098,
+            "sourceUri": "http://data.europa.eu/esco/skill/3838a64c-78dc-4f3f-a0c0-9f604e33eefd",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/3d427a49-4f85-42cd-8a92-62d4a34f41a1",
+            "skillType": "skill/competence",
+            "reuseLevel": "sector-specific",
+            "preferredLabel": "file documents",
+            "altLabels": "filing of documents\norder documents\nrecord documents",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:12.215Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills,\nhttp://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+            "description": "Create a filing system. Write a document catalogue. Label documents etc."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 3370,
+            "sourceUri": "http://data.europa.eu/esco/skill/3d427a49-4f85-42cd-8a92-62d4a34f41a1",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/3e04e39d-9eb6-4167-ad2d-e3413f647e4e",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "organise business documents",
+            "altLabels": "collate business documents\norganising business documents\ncollect and sort business documents\norganize business documents",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2016-12-20T18:08:15Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Put together documents coming from the photocopier, the mail, or the daily operations of businesses."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 3407,
+            "sourceUri": "http://data.europa.eu/esco/skill/3e04e39d-9eb6-4167-ad2d-e3413f647e4e",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/40005305-4541-4da7-9f76-abab74f0bc51",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "monitor staff absences",
+            "altLabels": "monitor staff's absence\nmonitoring staff's absences\nadminister staff's absences\noversee staff's absences\nkeep track of staff's absences",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:09.009Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Keep an overview of the employees's vacations, sick leaves and absences, register these in the agenda and file the necessary documents and certificates."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 3513,
+            "sourceUri": "http://data.europa.eu/esco/skill/40005305-4541-4da7-9f76-abab74f0bc51",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/43b13058-68d0-40c6-8031-caf5a7b7d20c",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "keep task records",
+            "altLabels": "maintain task records\ntask records maintaining\ntask record maintaining\nmaintaining task records\ntask records keeping\nkeeping task records\ntask record keeping",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:09.009Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Organise and classify records of prepared reports and correspondence related to the performed work and progress records of tasks."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 3700,
+            "sourceUri": "http://data.europa.eu/esco/skill/43b13058-68d0-40c6-8031-caf5a7b7d20c",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/48391ec6-42ba-4093-acf4-c7673b0c07f4",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "process commissioned instructions",
+            "altLabels": "processing commissioned instructions\nprocess commissioned directions\nprocess commissioned instruction\nhandle commissioned instructions",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:17.515Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Process instructions, usually oral ones, provided by managers and directives on actions required to be made. Take note, inquire, and take action on the commissioned requests."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 3934,
+            "sourceUri": "http://data.europa.eu/esco/skill/48391ec6-42ba-4093-acf4-c7673b0c07f4",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/76f22707-8d30-453f-9eb7-3376e2960311",
+            "skillType": "skill/competence",
+            "reuseLevel": "sector-specific",
+            "preferredLabel": "handle mail",
+            "altLabels": "deal with mail\nperform mail activities\nwork with mail\nhandle parcels\nexecute mail activities\ncarry out mail activities\nundertake mail activities\ndeal with parcels",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:12.952Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Handle mail considering data protection issues, health and safety requirements, and specifications of different kinds of mail."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 6564,
+            "sourceUri": "http://data.europa.eu/esco/skill/76f22707-8d30-453f-9eb7-3376e2960311",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/7c3865d1-e5a9-4043-a7a4-2e9e30468c0b",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "perform office routine activities",
+            "altLabels": "perform office routine activity\nperform office activities\nperforming office routine activities\nconduct office routine activities\ndo office routine activities",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:13.7Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Program, prepare, and perform activities required to be performed everyday in offices such as mailing, receiving supplies, updating managers and employees, and keeping operations running smoothly."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 6833,
+            "sourceUri": "http://data.europa.eu/esco/skill/7c3865d1-e5a9-4043-a7a4-2e9e30468c0b",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/7ec3c77b-1955-4397-9bd3-7b7b9d0b8531",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "manage personnel agenda",
+            "altLabels": "handle personnel agenda\nmanage agenda of personnel\nmanaging personnel agenda\nmaintain personnel agenda",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:09.009Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Schedule and confirm appointments for the personnel of the office, mostly managers and directive employees, with external parties."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 6988,
+            "sourceUri": "http://data.europa.eu/esco/skill/7ec3c77b-1955-4397-9bd3-7b7b9d0b8531",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/81633a44-f1db-4a01-a940-804c6905e330",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "use word processing software",
+            "altLabels": "Google Docs\nGNU TeXmacs\nIBM Lotus Word Pro\nAbiWord\nTextEdit\nLaTeX\nWordGraph\nQuickOffice\nCalligra Words\nKingsoft Office Writer\nLibreOffice Writer\nuse document processing program\nAtlantis Word Processor\nPolaris Office\nproduce text files\ntype text\nmake use of word processing software\napply word processing software\nuse word processor\nusing word processor\nMicrosoft Office Word\nApple Pages\nZoho Writer\nuse word processing\nWordPad\nable to use using word processing software\nTextilus\nutilise word processing software\nThinkFree Office\nIntelliTalk\nuse text processing program",
+            "hiddenLabels": "GNU TeXmacs\nKingsoft Office Writer\nLibreOffice Writer\nWordPad\nLaTeX\nThinkFree Office\nQuickOffice\nCalligra Words\nAtlantis Word Processor\nTextilus\nWordGraph\nIntelliTalk\nPolaris Office\nTextEdit\nGoogle Docs\nZoho Writer\nAbiWord\nIBM Lotus Word Pro\nApple Pages\nMicrosoft Office Word",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:16.725Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills,\nhttp://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+            "description": "Use computer software applications for composition, editing, formatting, and printing of any sort of written material."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 7131,
+            "sourceUri": "http://data.europa.eu/esco/skill/81633a44-f1db-4a01-a940-804c6905e330",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/81dc035c-921b-4fea-a453-94538e86097c",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "disseminate messages to people",
+            "altLabels": "distribute messages to people\ndisseminate message to people\npass messages to people\ndisseminating messages to people",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:12.952Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Receive, process, and pass messages to people coming from phone calls, faxes, postal, and emails."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 7164,
+            "sourceUri": "http://data.europa.eu/esco/skill/81dc035c-921b-4fea-a453-94538e86097c",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/8d49f760-3765-4612-8d40-a2bdd50738fe",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "fill out forms",
+            "altLabels": "complete forms\nenter data into forms\nfill out form\nfilling out forms\nfill in forms",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:15.235Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Fill out forms of a different nature with accurate information, legible calligraphy, and within a timely manner."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 7777,
+            "sourceUri": "http://data.europa.eu/esco/skill/8d49f760-3765-4612-8d40-a2bdd50738fe",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/933e7ccf-5d56-46ba-aca4-857f826a6b3a",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "administer appointments",
+            "altLabels": "ensure proper appointments administration\naccept or cancel appointments\nadminister an appointment\ndevelop cancellation policies\nhandle appointment administration\nschedule appointments\nensure proper appointment administration\nschedule an appointment",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2025-11-26T10:21:07.894Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Accept, schedule and cancel appointments."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 8108,
+            "sourceUri": "http://data.europa.eu/esco/skill/933e7ccf-5d56-46ba-aca4-857f826a6b3a",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": [
+            {
+              "record": {
+                "conceptType": "KnowledgeSkillCompetence",
+                "conceptUri": "http://data.europa.eu/esco/skill/933e7ccf-5d56-46ba-aca4-857f826a6b3a",
+                "skillType": "skill/competence",
+                "reuseLevel": "cross-sector",
+                "preferredLabel": "administer appointments",
+                "altLabels": "ensure proper appointments administration\naccept or cancel appointments\nadminister an appointment\ndevelop cancellation policies\nhandle appointment administration\nschedule appointments\nensure proper appointment administration\nschedule an appointment",
+                "hiddenLabels": "",
+                "status": "released",
+                "modifiedDate": "2025-07-31T09:47:16.283Z",
+                "scopeNote": "",
+                "definition": "",
+                "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+                "description": "Accept, schedule and cancel appointments."
+              },
+              "citation": {
+                "datasetId": "esco-v1.2.1-en",
+                "version": "1.2.1",
+                "language": "en",
+                "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+                "file": "skills_en.csv",
+                "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+                "recordNumber": 8107,
+                "sourceUri": "http://data.europa.eu/esco/skill/933e7ccf-5d56-46ba-aca4-857f826a6b3a",
+                "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+              }
+            }
+          ]
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/b769f524-0f25-44d7-8538-5c46710a040e",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "manage digital documents",
+            "altLabels": "Alfresco Standard Network\nDokmee\nEnterprise Content Management\nFileHold\nAthento Smart Document Management\nFileNet Content Manager\nFileCenter Pro\nSIVADOC\nM-Files DMS\nNuxeo Document Management\nDocuXplorer\nBlueDoc\nmanaging digital documents\nmanage digital files\nPaperPort Pro\nDocPoint\nOneDrive\ndocSTAR eclipse",
+            "hiddenLabels": "Dokmee\nAthento Smart Document Management\nSIVADOC\nDocuXplorer\nBlueDoc\nFileNet Content Manager\nEnterprise Content Management\nFileHold\nFileCenter Pro\nPaperPort Pro\ndocSTAR eclipse\nNuxeo Document Management\nDocPoint\nAlfresco Standard Network\nM-Files DMS\nOneDrive",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:15.235Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills,\nhttp://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+            "description": "Manage various data formats and files by naming, publishing, transforming and sharing files and documents and transforming file formats."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 9997,
+            "sourceUri": "http://data.europa.eu/esco/skill/b769f524-0f25-44d7-8538-5c46710a040e",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/c58050e1-0774-4097-93d2-07dd7ba6a27a",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "organise facilities for office personnel",
+            "altLabels": "book facilities for office personnel arrange facilities for office personnel\norganize facilities for office personnel\norganise facility for office personnel\norganising facilities for office personnel\norganise office personnel facilities\nreserve facilities for office personnel",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2016-12-20T18:06:56Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Manage the booking schedule for conferences and meetings of internal or external nature. Shop around and book reservations for travelling or hosting for office personnel."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 10765,
+            "sourceUri": "http://data.europa.eu/esco/skill/c58050e1-0774-4097-93d2-07dd7ba6a27a",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/da56feea-941c-4ff6-b573-bb16ccbde670",
+            "skillType": "skill/competence",
+            "reuseLevel": "sector-specific",
+            "preferredLabel": "communicate schedules to the people concerned",
+            "altLabels": "communicate timetables\ncommunicate schedules to whom it may concern\nimpart schedules\nimpart schedules to whom it may concern\ncommunicate scheduling information\nimpart schedules to the people concerned\ncommunicate schedules\nimpart timetables",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:13.7Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Convey relevant scheduling information. Present the schedule to the persons concerned, and inform them of any schedule changes. Approve the schedules and verify that everyone has understood the information sent to them."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 11890,
+            "sourceUri": "http://data.europa.eu/esco/skill/da56feea-941c-4ff6-b573-bb16ccbde670",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/de2f0ce8-f8d6-48c5-a213-4d065251cecf",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "communicate by telephone",
+            "altLabels": "communicate through telephone\ncommunicate by phone\ninteract using the telephone\nuse the telephone",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:14.494Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Liaise via telephone by making and answering calls in a timely, professional and polite manner."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 12092,
+            "sourceUri": "http://data.europa.eu/esco/skill/de2f0ce8-f8d6-48c5-a213-4d065251cecf",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/ec0bbf39-0edd-4015-a2c3-82ad563ce3a8",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "draft corporate emails",
+            "altLabels": "draft corporation emails\ndrafting corporate emails\ncompose corporate emails\nwrite corporate emails\ndraft corporate email",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:16.725Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills,\nhttp://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+            "description": "Prepare, compile, and write mails with the adequate information and an appropriate language to make internal or external communications."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 12817,
+            "sourceUri": "http://data.europa.eu/esco/skill/ec0bbf39-0edd-4015-a2c3-82ad563ce3a8",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/f683ae1d-cb7c-4aa1-b9fe-205e1bd23535",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "use microsoft office",
+            "altLabels": "utilise microsoft office applications\nuse MS Excel\npossess proficiency in MS office\nbe a proficient microsoft office user\nutilise microsoft office software\nhave proficiency in MS office\nhave proficiency in microsoft office\npossess proficiency in microsoft office\nbe a proficient MS office user\nutilise microsoft office programmes\nutilise microsoft office\nuse microsoft office applications\nuse MS Powerpoint\nuse MS Office\nuse microsoft office programmes\nuse MS Word\nuse microsoft office software",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2025-04-16T10:10:10.034Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills,\nhttp://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+            "description": "Use the standard programs contained in Microsoft Office. Create a document and do basic formatting, insert page breaks, create headers or footers, and insert graphics, create automatically generated tables of contents and merge form letters from a database of addresses. Create auto-calculating spreadsheets, create images, and sort and filter data tables."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 13419,
+            "sourceUri": "http://data.europa.eu/esco/skill/f683ae1d-cb7c-4aa1-b9fe-205e1bd23535",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/57beaad1-7c5e-4b17-a35f-31f49e1d7378",
+            "skillType": "knowledge",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "education law",
+            "altLabels": "education regulation\neducation legislation\nthe law of education\neducation laws\neducation norms",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:12.215Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "The area of law and legislation that concerns education policies and the people working in the sector in an (inter)national context, such as teachers, students, and administrators."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 4821,
+            "sourceUri": "http://data.europa.eu/esco/skill/57beaad1-7c5e-4b17-a35f-31f49e1d7378",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/880c54f9-866e-4f37-b5fa-25ef8a7d49b6",
+            "skillType": "knowledge",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "accounting techniques",
+            "altLabels": "accounting technique\naccounting approaches\naccounting methods\ntechniques of accounting\naccounting skills\naccounting performance",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:11.47Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "The techniques of recording and summarising business and financial transactions and analysing, verifying, and reporting the results."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 7494,
+            "sourceUri": "http://data.europa.eu/esco/skill/880c54f9-866e-4f37-b5fa-25ef8a7d49b6",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/b3f22ab4-b553-439d-80a2-5b8ae6d11e0d",
+            "skillType": "knowledge",
+            "reuseLevel": "sector-specific",
+            "preferredLabel": "labour law",
+            "altLabels": "labour laws\nworkers' law\nlabour statutes\nlabour rules and regulations, workers' law\nlabor law",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T14:51:53.203Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "The field of law that is concerned with the regulation of the relationship between employers, employees, trade unions, and the government."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 9811,
+            "sourceUri": "http://data.europa.eu/esco/skill/b3f22ab4-b553-439d-80a2-5b8ae6d11e0d",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/efa7a6e9-3018-4125-8ac5-5b5d513bcba7",
+            "skillType": "knowledge",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "education administration",
+            "altLabels": "education administrations\neducation management\neducation oversight\neducation supervision",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:13.7Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "The processes related to the administrative areas of an education institution, its director, employees, and students."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 13016,
+            "sourceUri": "http://data.europa.eu/esco/skill/efa7a6e9-3018-4125-8ac5-5b5d513bcba7",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/0167ee96-f478-4383-afe6-aabf387da5b3",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "liaise with typists",
+            "altLabels": "collaborate with typists\nliaise with typist\nliaising with typists\ncooperate with typists\nwork together with typists",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-01-09T14:25:41.682Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Give instructions to typists about the addressees, the appropriate format, the number of copies required, etc. for them to type the final documents."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 62,
+            "sourceUri": "http://data.europa.eu/esco/skill/0167ee96-f478-4383-afe6-aabf387da5b3",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "prepare presentation material",
+            "altLabels": "create presentation material\nmake presentation material ready\nset up presentation material\nprepare material for presentation\nprepare presentation materials\npreparing presentation material",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:09.851Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Prepare the documents, slide shows, posters and any other media needed for specific audiences."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 1496,
+            "sourceUri": "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "manage budgets",
+            "altLabels": "budget set costs\napproximate set costs\nestimate set costs\nmanage operation budgets\noversee operational budgets\nhandle operational budgets\nmaintain operational budgets\nmanage operational budget",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2025-08-01T12:50:56.749Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Plan, monitor, report on the budget and prepare set production budgets."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 1829,
+            "sourceUri": "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/25f46432-5ee9-4cb7-a18b-d2ee41761823",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "manage needs for stationery items",
+            "altLabels": "maintain stationery items\nmanaging needs of stationery items\nmanage needs of stationery item\noversee needs of stationery items\nmanage stationery items needs",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:15.235Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Watch, analyse, and provide sufficient and required stationery items for business facilities to run operations smoothly."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 2062,
+            "sourceUri": "http://data.europa.eu/esco/skill/25f46432-5ee9-4cb7-a18b-d2ee41761823",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/382ed835-8958-4d86-8471-cff55c6df3e7",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "organise travel arrangements for staff",
+            "altLabels": "organise arrangements for travelling staff\norganise staff travel arrangements\norganise staff travel and accommodation\ncoordinate travel plans for staff\norganize travel arrangements for staff",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2016-12-20T17:45:00Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Plan all arrangements for business travels including preparing schedules and booking transportation, dinners and accommodation."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 3096,
+            "sourceUri": "http://data.europa.eu/esco/skill/382ed835-8958-4d86-8471-cff55c6df3e7",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/4adb861b-3ad8-4f0d-9343-decf59748d56",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "demonstrate professional attitude to clients",
+            "altLabels": "demonstrate to clients a professional attitude\nshow a professional caring attitude\nshow clients a caring professional attitude\ndemonstrate to clients an attitude of professionalism",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:15.235Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Demonstrate responsibility and professional duty of care to clients which will include communication skills and a focus of customer care orientation."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 4073,
+            "sourceUri": "http://data.europa.eu/esco/skill/4adb861b-3ad8-4f0d-9343-decf59748d56",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/4e883275-9f45-4336-8e68-4b58f943c532",
+            "skillType": "skill/competence",
+            "reuseLevel": "sector-specific",
+            "preferredLabel": "place orders for printed paper goods",
+            "altLabels": "calculate orders for printed paper goods\nestimate orders for printed paper goods\nplace an order for printed paper goods\nplacing an order for printed paper goods\nsend orders for printed paper goods\nplacing orders for printed paper goods\narrange orders for printed paper goods",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:12.952Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Communicate with suppliers and place orders for printed paper goods such as newspapers, magazines, books and stationery products for the store."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 4296,
+            "sourceUri": "http://data.europa.eu/esco/skill/4e883275-9f45-4336-8e68-4b58f943c532",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/5fa6cd2f-9bab-4afa-a184-2d2f1401b770",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "write meeting reports",
+            "altLabels": "create meeting reports\ndraft meeting notes\ncreate meeting notes\nrecord meeting reports\ncompose meeting reports\ncompose meeting notes\ndraft meeting reports\nrecord meeting notes",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:14.494Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Write complete reports based on minutes taken during a meeting in order to communicate the important points which were discussed, and the decisions which were made, to the appropriate people."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 5255,
+            "sourceUri": "http://data.europa.eu/esco/skill/5fa6cd2f-9bab-4afa-a184-2d2f1401b770",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/63321ecf-4fc6-44d9-88f1-5373a4f3038a",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "handle petty cash",
+            "altLabels": "oversee petty cash\nmanage petty cash\ndeal with office fund\nutilise petty cash\nadminister petty cash\ncomplete transactions using petty cash\nmanage office fund\ndeal with petty cash",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:15.968Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Handle petty cash for minor expenses and transactions required for the daily running of a business."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 5462,
+            "sourceUri": "http://data.europa.eu/esco/skill/63321ecf-4fc6-44d9-88f1-5373a4f3038a",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/695c3249-18e7-4435-bdb8-54a16011159d",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "develop documentation in accordance with legal requirements",
+            "altLabels": "comply documentation with standards",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:13.7Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Create professionally written content describing products, applications, components, functions or services in compliance with legal requirements and internal or external standards."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 5799,
+            "sourceUri": "http://data.europa.eu/esco/skill/695c3249-18e7-4435-bdb8-54a16011159d",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/71dde84c-0058-4c52-a556-523369333db8",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "use office systems",
+            "altLabels": "work with office systems\nredirect caller\ndirect callers\nutilize office systems",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:15.235Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Make appropriate and timely use of office systems used in business facilities depending on the aim, whether for the collection of messages, client information storage, or agenda scheduling. It includes administration of systems such as customer relationship management, vendor management, storage, and voicemail systems."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 6278,
+            "sourceUri": "http://data.europa.eu/esco/skill/71dde84c-0058-4c52-a556-523369333db8",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/c1f29568-f2bb-49d2-b6c2-28748bd1629b",
+            "skillType": "skill/competence",
+            "reuseLevel": "sector-specific",
+            "preferredLabel": "manage online content",
+            "altLabels": "manage website content",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:13.7Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills,\nhttp://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+            "description": "Ensure the website content is up to date, organised, attractive and meets the target audience needs, the requirements of the company and international standards by checking the links, setting the publishing time framework and order."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 10551,
+            "sourceUri": "http://data.europa.eu/esco/skill/c1f29568-f2bb-49d2-b6c2-28748bd1629b",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/df1265b9-81fd-4a40-a746-f0442ffbf7ef",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "deliver correspondence",
+            "altLabels": "act as courier\nhand out mail to clients\ndeliver the correspondence\ndelivering correspondence",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:09.851Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Distribute mail correspondence, newspapers, packages and private messages to customers."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 12137,
+            "sourceUri": "http://data.europa.eu/esco/skill/df1265b9-81fd-4a40-a746-f0442ffbf7ef",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/e2e15494-65b9-4af5-8b86-53fb51e7e022",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "manage accounts",
+            "altLabels": "administer accounts\nmaintain financial records\noversee financial records\noversee accounts\nmaintain accounts\nadminister financial records",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:09.009Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Manage the accounts and financial activities of an organisation, supervising that all the documents are correctly maintained, that all the information and calculations are correct, and that proper decisions are being made."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 12327,
+            "sourceUri": "http://data.europa.eu/esco/skill/e2e15494-65b9-4af5-8b86-53fb51e7e022",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/e3e42d54-78bd-4337-aa87-bb31a7670c9a",
+            "skillType": "skill/competence",
+            "reuseLevel": "sector-specific",
+            "preferredLabel": "issue sales invoices",
+            "altLabels": "send sales invoices\npublish sales invoices\nissue a sales invoice\nissuing sales invoices\nprepare sales invoices\nproduce sales invoices\nissuing a sales invoices",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:17.515Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Prepare the invoice of goods sold or services provided, containing individual prices, the total charge, and the terms. Complete order processing for orders received via telephone, fax and internet and calculate the customer’s final bill."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 12377,
+            "sourceUri": "http://data.europa.eu/esco/skill/e3e42d54-78bd-4337-aa87-bb31a7670c9a",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/f7e7ccb6-fadc-4c35-935d-e1040be40dfe",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "handle financial transactions",
+            "altLabels": "handle finance transactions\nprocess financial transactions\ndeal with money handling",
+            "hiddenLabels": "",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:11.47Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills",
+            "description": "Administer currencies, financial exchange activities, deposits as well as company and voucher payments. Prepare and manage guest accounts and take payments by cash, credit card and debit card."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 13498,
+            "sourceUri": "http://data.europa.eu/esco/skill/f7e7ccb6-fadc-4c35-935d-e1040be40dfe",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        },
+        {
+          "record": {
+            "conceptType": "KnowledgeSkillCompetence",
+            "conceptUri": "http://data.europa.eu/esco/skill/fdf15b35-9028-4acb-bfd2-43f00a015cd9",
+            "skillType": "skill/competence",
+            "reuseLevel": "cross-sector",
+            "preferredLabel": "use personal organization software",
+            "altLabels": "WorkStraight\nWunderlist\nhiTask\nYahoo! Calendar\nEmplotime\nTrackerSuite.Net\niPlan\nToggl\nFreshBooks\nuse digital to-do list\nTodoist\nHarvest\nMozilla Sunbird\nEmpire Suite Software\nArt Plus ePix Wallpaper Calendar\nTimeDoctor\nOmniFocus\npmProjectTeam\nuse software for personal organization\nRainlendar Lite\nZoho Calendar\nChronForce\nOsmo Calendar\nAceProject\nmake use of personal organization software\nuse software for personal organisation\nToodleDo\nZoho Projects\nMavenlink\nInteractive Calendar\nVueMinder Calendar Lite\nIm Time Calendar\nTaskTome\nTrello\nOutlook Time\nClarizen\ntime@work\nusing personal organisation software\nTickTick\nuse digital calendar\nutilise personal organization software\napply personal organization software\nuse digital time tracking\nable to use using personal organization software\nAny.DO",
+            "hiddenLabels": "WorkStraight\nWunderlist\nhiTask\nEmplotime\nTrackerSuite.Net\nTodoist\nToggl\nArt Plus ePix Wallpaper Calendar\nOmniFocus\nRainlendar Lite\nZoho Calendar\nOsmo Calendar\nAceProject\nTaskTome\nToodleDo\nFreshBooks\nInteractive Calendar\nMavenlink\nTrello\nYahoo! Calendar\nZoho Projects\nHarvest\niPlan\nMozilla Sunbird\nIm Time Calendar\nVueMinder Calendar Lite\nClarizen\nOutlook Time\npmProjectTeam\nTickTick\nAny.DO\nEmpire Suite Software\nChronForce\nTimeDoctor\ntime@work",
+            "status": "released",
+            "modifiedDate": "2024-02-09T17:29:15.968Z",
+            "scopeNote": "",
+            "definition": "",
+            "inScheme": "http://data.europa.eu/esco/concept-scheme/skills,\nhttp://data.europa.eu/esco/concept-scheme/member-skills,\nhttp://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+            "description": "Use software tools, such as calendars, to-do lists, time-tracking, contact lists, to help in managing personal efficiency."
+          },
+          "citation": {
+            "datasetId": "esco-v1.2.1-en",
+            "version": "1.2.1",
+            "language": "en",
+            "publisher": "European Commission, DG Employment, Social Affairs and Inclusion",
+            "file": "skills_en.csv",
+            "fileSha256": "d03b10efca94b4bcfa260a992cfde89c375f0fa12095d6662a663cfd2f9f2950",
+            "recordNumber": 13845,
+            "sourceUri": "http://data.europa.eu/esco/skill/fdf15b35-9028-4acb-bfd2-43f00a015cd9",
+            "downloadUrl": "https://ec.europa.eu/esco/download/ESCO%20dataset%20-%20v1.2.1%20-%20classification%20-%20en%20-%20csv.zip"
+          },
+          "originalVariants": []
+        }
+      ]
+    }
+  ],
+  "generatedKnowledge": false
+}

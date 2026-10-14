@@ -1,0 +1,212 @@
+{
+  "schema": "uahraf9m-demold/v0.1",
+  "name": "私人公司对外联络秘书 — ESCO 4120.1",
+  "id": "private-company-secretary",
+  "version": "0.1.0",
+  "mode": "prototype",
+  "output": "C:\\Users\\User\\Documents\\UAH-Packages\\private-company-secretary-0.1.0",
+  "views": {
+    "M1": "ready",
+    "M2": "incomplete",
+    "M3": "incomplete",
+    "M4": "incomplete",
+    "M5": "incomplete",
+    "M6": "incomplete",
+    "M7": "incomplete",
+    "M8": "incomplete",
+    "M9": "incomplete"
+  },
+  "files": [
+    {
+      "path": "exports\\78c6722e\\M1\\M1.json",
+      "sha256": "a562ae51d9095a0cd5f66ecc7f9db02f5f94ad01ab2fd0c7171a150ae45a3aa1"
+    },
+    {
+      "path": "exports\\78c6722e\\M1\\M1.md",
+      "sha256": "d653dc3a5bf01d3066266f1465e7c34aa84207ddff4cfa99f27d138fe635a586"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.1-sources.json",
+      "sha256": "30580ee93b040cd064980dd17a534d83bea7eb8a63521f57d2b351fe91989ce1"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.1.json",
+      "sha256": "0067e843084ce2731d65516a5dc0a99960e34980bed123bd1aad3e05b4ddccd3"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.1.md",
+      "sha256": "d14832b3ccb0dc1c5a962e94b8fc9f441647f7b713d4b21a98ae168ee282db26"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.2-sources.json",
+      "sha256": "1472cd0a1cba9cc45d139e2bbda0c515c08b136508123ed68464b51a1f307688"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.2.json",
+      "sha256": "94df8a71187d13d9111332fa9627112bdaead39cb38002fcac09715b7bd9783c"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.2.md",
+      "sha256": "589a933b0470927f3ee06d78a8141efc430393620fa5b979eb4ec0ebcc829474"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.3-sources.json",
+      "sha256": "64e844e5c9c8d1b3eea37172fff060cc78e44ec8d8f5d8385c18701644d6d877"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.3.json",
+      "sha256": "9907055e4abe94b649c7098a969ba5a82f157863f189c5d56ce5d1143c340e61"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.3.md",
+      "sha256": "c7a8366091347b3be4902713a8bcfff9ea40e2d1dbb3896590f0763ba05f9bcd"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.4-sources.json",
+      "sha256": "7d4204ba5a0f11750ca7aa47dcd2890237706dda86cec15b1fc8bcaef25bcaa4"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.4.json",
+      "sha256": "0ff46f37e9c09866612c18fc08d82c670c7b3903a5751e25e00bfea57eac3979"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.4.md",
+      "sha256": "62cfaf9df618f5c9e3052ab3efb4fcfa8518df5a505cc44b27c20f7dcda88b54"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.5-sources.json",
+      "sha256": "4100f91b0f571d2d05b1fde8529b455994a1e12da767a7399cf37089b79fefe9"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.5.json",
+      "sha256": "0e0e62005dff3be03e63e87289885a7ad68ec0a831e3d67ca52be5c9213a20f1"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.5.md",
+      "sha256": "d1a6d05ba0e7f2b57864ed4636435873bd6bf639c6ee3e0e97891e9e3fdad9bf"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.6-sources.json",
+      "sha256": "99ada02ece5dcf079ba4ae5dbb030a89e2cc70308ecacfaa9dedb8249cda3d82"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.6.json",
+      "sha256": "083b6daa8478ff1596494d2504998ade07474a4bd8fa9b43cf9c0d67c384d3eb"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.6.md",
+      "sha256": "2d55f2d2cc72e4c558d5b449bd1b85356aa7d25d0169f661902285007e80a7ec"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\M2.md",
+      "sha256": "a868fe2a5b2c14ca3143b1768f6238d233d2239aeffa660591cfc6b711c5611f"
+    },
+    {
+      "path": "exports\\78c6722e\\M2\\index.json",
+      "sha256": "617c8cc1e6d89171b1566041572c68f52a6606d45b3d450d3262c4d56c42273c"
+    },
+    {
+      "path": "exports\\78c6722e\\M3\\M3.md",
+      "sha256": "b6507a3ea40e0006bd3f30e5312e49b33aa78ceb39d1bbe7bafaa59deb5a5902"
+    },
+    {
+      "path": "exports\\78c6722e\\M3\\classification.json",
+      "sha256": "937bba101e7a67d1d922d60609b6709afdbaa802eb053d2241325b6a1e88d4ff"
+    },
+    {
+      "path": "exports\\78c6722e\\M3\\esco.zip",
+      "sha256": "f9761b0b52be1828b38a3e5e0ae59a93a7b0ce358bc800f52f57a8b002adeb3e"
+    },
+    {
+      "path": "exports\\78c6722e\\M3\\original-references.json",
+      "sha256": "9deb0c8c62b5efb3d7b9bbbcbb3b6d6100fc1dbdebdc85dd8177bb4c5fad8ebd"
+    },
+    {
+      "path": "exports\\78c6722e\\M3\\source.json",
+      "sha256": "6325db0cc5a6924c625551b8de814d5b432023c114f235106127a971262a8b73"
+    },
+    {
+      "path": "exports\\78c6722e\\M4\\M4.md",
+      "sha256": "18145f088bf8da073ad8a249912f20a8b4b15cdd40b2b51cc4e0ab9892991005"
+    },
+    {
+      "path": "exports\\78c6722e\\M4\\structure.json",
+      "sha256": "2843685a9b745d033ce403ddbd68f677eb0fa6757277ecd5a70c297a98373b4e"
+    },
+    {
+      "path": "exports\\78c6722e\\M5\\M5.json",
+      "sha256": "a1e53059797b7616f9cde4533e6fb68b3168fc6c2f89fc792e3d1d24ecf797da"
+    },
+    {
+      "path": "exports\\78c6722e\\M5\\M5.md",
+      "sha256": "f6314d0d4556c8bb7ef28b80f7ce3bd046f56d4dd4133d19ed17909117a05cab"
+    },
+    {
+      "path": "exports\\78c6722e\\M6\\M6.json",
+      "sha256": "fc542768fc43c972b4ab5f5731e99ed4856eacd4b6aa2d659a5d20806358f5dd"
+    },
+    {
+      "path": "exports\\78c6722e\\M6\\M6.md",
+      "sha256": "e9d14ce1debfd962f35b5d8b609e55dc965c71418a447c70dff02c7b25a2aa41"
+    },
+    {
+      "path": "exports\\78c6722e\\M7\\M7.json",
+      "sha256": "9129eefe2704f1e9ec9682704d0d96d7799330f5db5cbc5f1025e79bb2f87ef7"
+    },
+    {
+      "path": "exports\\78c6722e\\M7\\M7.md",
+      "sha256": "8420b5109c23272bf41dd458a3e09b6aefcdce70870e1e29ec217dc3acec2dae"
+    },
+    {
+      "path": "exports\\78c6722e\\M8\\M8.md",
+      "sha256": "4e3b2073db166330d7980a8115f6a911b5c3e65830b627a53859d05cc50484c6"
+    },
+    {
+      "path": "exports\\78c6722e\\M8\\state-template.json",
+      "sha256": "8d2c127e0628b22dabe89350a65aa91de31e8a12819171cfdbb9dff7e4c0a1d0"
+    },
+    {
+      "path": "exports\\78c6722e\\M9\\design-boundary.md",
+      "sha256": "cdfb36a234b7a88454f688b3a8b5f58868c2c28fcc7ba99f52e957e0129328ba"
+    },
+    {
+      "path": "exports\\78c6722e\\M9\\prototype-boundary.md",
+      "sha256": "65dcf7e32a52c045c25151114b2f0d1db6255d896efa4f754edec1b7382996cd"
+    }
+  ],
+  "iconPlan": {
+    "mode": "automatic_local",
+    "theme": "general",
+    "renderer": "local_code",
+    "sizes": [
+      16,
+      24,
+      32,
+      48,
+      64,
+      128,
+      256
+    ]
+  },
+  "warning": "Packaging checks structure and file integrity; it does not establish professional correctness or execute workflows.",
+  "status": "packaged",
+  "instanceId": "1bcb0912-343f-4f35-9e3c-5799b1f47a00",
+  "date": "2026-10-14",
+  "icon": "C:\\Users\\User\\Documents\\UAH-Packages\\private-company-secretary-0.1.0\\assets\\agent.ico",
+  "iconReceipt": {
+    "mode": "automatic_local",
+    "theme": "general",
+    "renderer": "local_code",
+    "sizes": [
+      16,
+      24,
+      32,
+      48,
+      64,
+      128,
+      256
+    ],
+    "path": "assets/agent.ico",
+    "sha256": "a61b0d5b37e2b691910edd5dcb54787edd1dc21078dc6928aa127d743d59205c"
+  }
+}
