@@ -1,3 +1,2 @@
 ﻿$ErrorActionPreference='Stop'
-$root=$PSScriptRoot
-Start-Process -FilePath (Join-Path $root 'app\BOSS-win32-x64\BOSS.exe') -WorkingDirectory $root
+Start-Process -FilePath (Join-Path $PSScriptRoot 'runtime\node.exe') -ArgumentList @(('"'+(Join-Path $PSScriptRoot 'updater\launcher.cjs')+'"')) -WorkingDirectory $PSScriptRoot -WindowStyle Hidden

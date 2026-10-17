@@ -1,0 +1,49 @@
+{
+  "schema": "uah-connector-catalog/v1",
+  "connectors": [
+    {
+      "id": "gmail",
+      "name": "Gmail 读取与人工确认发送",
+      "version": "1.2.0",
+      "operations": [
+        "read",
+        "send"
+      ],
+      "file": "gmail.cjs",
+      "sha256": "5b7946e569c352a71a34b4cbb3413d6408c66dad4458836964dae4d55719643a",
+      "accountAuthorization": "Google OAuth in system browser",
+      "publisherConfigurationRequired": true,
+      "previous": [
+        {
+          "version": "1.0.0",
+          "sha256": "85407ffd5f91ebc33946fe448e7d9689589d13d2e7a960d09d160aacb672f75e"
+        },
+        {
+          "version": "1.1.0",
+          "sha256": "6056e261866fea8226542eb39eeb639505735647f88de28e4ca821e511424e7d"
+        }
+      ],
+      "skill": "mail-skill.md",
+      "skillSha256": "fbbd2b5fdd918525f5cb15f3a0b25a6eb14943f6d8af8cc8dbc96ff24cdc16b7",
+      "previousSkillSha256": [
+        "6e262659147bb7ced9eb9f2b713118d19c133ea0250759bbf8ace7f96f063473"
+      ]
+    },
+    {
+      "id": "browser",
+      "name": "通用浏览器",
+      "version": "1.1.0",
+      "operations": [
+        "read",
+        "interact",
+        "download"
+      ],
+      "file": "browser.cjs",
+      "sha256": "7d8e6899a3750461e86ddb4d9f818ba921dc37deafda039e0d4f98b86144cce3",
+      "accountAuthorization": "User logs into each website in an isolated browser",
+      "publisherConfigurationRequired": false,
+      "skill": "browser-skill.md",
+      "skillSha256": "2ebd51e67b521a1497131271436201015ca4106014b500f509ab5dac141ace18"
+    }
+  ]
+}
