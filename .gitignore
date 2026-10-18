@@ -6,3 +6,9 @@ workspace/
 .env
 *.zip
 !agent/**/esco.zip
+
+/build/
+/releases/
+**/node_modules/
+/updater/config.json
+/updates/

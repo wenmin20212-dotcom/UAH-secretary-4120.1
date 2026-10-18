@@ -32,18 +32,27 @@
     {
       "id": "browser",
       "name": "通用浏览器",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "operations": [
         "read",
         "interact",
         "download"
       ],
       "file": "browser.cjs",
-      "sha256": "7d8e6899a3750461e86ddb4d9f818ba921dc37deafda039e0d4f98b86144cce3",
+      "sha256": "4099e8506a4377a958ad7a5e877bf25a56ba8823ec8977937ef609c94adbabd6",
       "accountAuthorization": "User logs into each website in an isolated browser",
       "publisherConfigurationRequired": false,
       "skill": "browser-skill.md",
-      "skillSha256": "2ebd51e67b521a1497131271436201015ca4106014b500f509ab5dac141ace18"
+      "skillSha256": "8b732096c2f94afb4cd991b80e5506b099780ec204d59ff8813469280c152e92",
+      "previous": [
+        {
+          "version": "1.1.0",
+          "sha256": "7d8e6899a3750461e86ddb4d9f818ba921dc37deafda039e0d4f98b86144cce3"
+        }
+      ],
+      "previousSkillSha256": [
+        "2ebd51e67b521a1497131271436201015ca4106014b500f509ab5dac141ace18"
+      ]
     }
   ]
 }
