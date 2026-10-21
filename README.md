@@ -4,7 +4,7 @@
 
 [完整安装包、0.1.5→0.1.6升级包与校验清单](https://github.com/wenmin20212-dotcom/UAH-secretary-4120.1/releases/tag/v0.1.6)。手机服务同步到0.1.5后，话题旁“⋯”可导出完整Word问答、下载到手机、重命名、预览合并与撤销。组件升级保留已改进的9M、模型、账号授权、聊天、知识、技能和工作区；关闭程序并备份后运行Upgrade.cmd。
 
-共用组件源码锁定于[孵化师 c78b914](https://github.com/wenmin20212-dotcom/UAH-incubator/tree/c78b914/execution/topic-management)。本仓库和附件保持私密；历史版本不覆盖。以下原型职业说明保留历史版本背景，最新可下载程序以上述Release为准。
+共用组件源码锁定于[孵化师 c78b914](https://github.com/wenmin20212-dotcom/UAH-incubator/tree/c78b914/execution/topic-management)。本秘书仓库及安装附件现已公开，可不登录GitHub直接下载；历史版本不覆盖。以下原型职业说明保留历史版本背景，最新可下载程序以上述Release为准。
 
 当前版本 **0.1.5**。仓库保持私密；完整独立安装器及 0.1.3、0.1.4 原位置升级包在 Releases。
 
