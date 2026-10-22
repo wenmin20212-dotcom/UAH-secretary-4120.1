@@ -59,4 +59,14 @@ function createRuntime({profileRoot,productId,fetch:request=global.fetch,openBro
  const gmailRecord=state().installed.gmail;if(gmailRecord&&gmailRecord.version!==catalog.definition('gmail').version)install('gmail',{operations:gmailRecord.operations||['read']});
  return {mailStore:()=>require('./mail-drafts.cjs').createStore({profileRoot,productId}),deliverMail:async(draft,account)=>{const {adapter,item}=installed('gmail');if(!item.operations?.includes('send'))throw Error('Sending is not installed');const s=sendStatus();if(!s.sendAuthorized||s.sendAccount!==account)throw Error('Sending account authorization changed');const d=require('./mail-drafts.cjs').content({to:draft.to,cc:draft.cc,bcc:draft.bcc,subject:draft.subject,body:draft.body,attachments:draft.attachments});const files=require('./mail-attachments.cjs').createAttachments(profileRoot);const prepared={...d,attachments:d.attachments.map(a=>({...a,data:files.read(a)}))};return adapter.send(request,await access('send',account),prepared,account);},catalog:()=>({connectors:catalog.catalog().connectors.map(({sha256,file,...d})=>d)}),install,status,connect,disconnect,browser,selectBrowser:(channel)=>serial(async()=>{preferences.write(profileRoot,channel);await syncBrowser();return status('browser');}),list:async args=>{const {adapter}=installed('gmail');return adapter.list(request,await access(),args);},read:async args=>{const {adapter}=installed('gmail');return adapter.read(request,await access(),args);},shutdown:async()=>{stopped=true;clearInterval(watcher);pending?.cancel();await serial(async()=>{if(browserSession)await browserSession.close({localOnly:true});});}};
 }
-module.exports={createRuntime,defaultVault,safe};
+function withGoogle(options){
+ catalog.verifiedSource('google_workspace');const runtime=createRuntime(options);
+ const google=require(catalog.verifiedSource('google_workspace').file).create({...options,vault:options.vault||defaultVault(),openBrowser:options.openBrowser||defaultBrowser});
+ const install=runtime.install,status=runtime.status,connect=runtime.connect,disconnect=runtime.disconnect,shutdown=runtime.shutdown;
+ runtime.install=(id,args)=>id==='google_workspace'?(catalog.verifiedSource(id),google.install(args)):install(id,args);
+ runtime.status=id=>id==='google_workspace'?google.status():status(id);
+ runtime.connect=(id,operation)=>id==='google_workspace'?google.connect(operation==='read_all'?'read_all':'app_files'):connect(id,operation);
+ runtime.disconnect=id=>id==='google_workspace'?google.disconnect():disconnect(id);
+ runtime.shutdown=async()=>{google.shutdown();await shutdown();};runtime.google=google;return runtime;
+}
+module.exports={createRuntime:withGoogle,defaultVault,safe};

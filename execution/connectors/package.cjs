@@ -1,5 +1,5 @@
 const fs=require('node:fs'),path=require('node:path');
-const names=['web-read.cjs','agent-presence.cjs','catalog.cjs','catalog.json','browser-skill.md','browser-settings.cjs','mail-skill.md','mail-drafts.cjs','mail-attachments.cjs','mail-review.cjs','mail-preload.cjs','mail-review.html','mail-review-renderer.js','runtime.cjs','bootstrap.cjs','mcp.mjs','vault.ps1','open-browser.ps1','package.cjs'];
+const names=['google-workspace.cjs','google-tools.cjs','web-read.cjs','agent-presence.cjs','catalog.cjs','catalog.json','browser-skill.md','browser-settings.cjs','mail-skill.md','mail-drafts.cjs','mail-attachments.cjs','mail-review.cjs','mail-preload.cjs','mail-review.html','mail-review-renderer.js','runtime.cjs','bootstrap.cjs','mcp.mjs','vault.ps1','open-browser.ps1','package.cjs'];
 function stage(output){
  const target=path.join(output,'execution/connectors');fs.mkdirSync(target,{recursive:true});
  fs.copyFileSync(path.join(__dirname,'../agent-registry.cjs'),path.join(output,'execution/agent-registry.cjs'));

@@ -53,6 +53,21 @@
       "previousSkillSha256": [
         "2ebd51e67b521a1497131271436201015ca4106014b500f509ab5dac141ace18"
       ]
+    },
+    {
+      "id": "google_workspace",
+      "name": "Google Drive 与 Docs",
+      "version": "0.1.1",
+      "operations": [
+        "read",
+        "create",
+        "edit",
+        "upload"
+      ],
+      "file": "google-workspace.cjs",
+      "sha256": "20bc5d167b3f97b528794eab0a38651c6a31b101bc4c4fd7ce60f9fd3173ea6a",
+      "publisherConfigurationRequired": true,
+      "accountAuthorization": "Google desktop OAuth; separate instance authorization; drive.file default"
     }
   ]
 }

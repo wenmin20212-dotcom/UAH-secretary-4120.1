@@ -2,7 +2,7 @@
   "schema": "uahraf9m-demold/v0.1",
   "id": "private-company-secretary",
   "name": "私人公司对外联络秘书 — ESCO 4120.1",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "mode": "prototype",
   "views": {
     "M1": {
@@ -95,8 +95,8 @@
   "mcp": [],
   "designScope": "M1-M9 definitions only; implementation and professional acceptance remain incomplete",
   "instanceId": "1bcb0912-343f-4f35-9e3c-5799b1f47a00",
-  "date": "2026-10-18",
-  "displayName": "私人公司对外联络秘书 — ESCO 4120.1 v0.1.5-2026-10-18",
+  "date": "2026-10-22",
+  "displayName": "私人公司对外联络秘书 — ESCO 4120.1 v0.1.7-2026-10-22",
   "desktopIcon": "assets/agent.ico",
   "packagingValidation": "structure_and_integrity_only"
 }

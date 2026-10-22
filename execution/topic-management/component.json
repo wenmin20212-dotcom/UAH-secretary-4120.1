@@ -1,0 +1,1 @@
+{"schema":"uah-component/v1","id":"topic-management","version":"1.0.0","runtime":"node >=24","ui":"browser","databaseAdapter":"goose-native-sessions-v1","externalOfficeRequired":false,"platformsDesignedFor":["win32","darwin"],"macVerified":false}

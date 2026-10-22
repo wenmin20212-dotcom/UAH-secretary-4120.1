@@ -35,11 +35,14 @@ function identityHints(meta){return `\n# 当前应用身份与实际配置\n应�
 }
 function stagePresentation(stage,iconFile){
  const renderer=path.join(stage,'.vite/renderer/main_window'),html=path.join(renderer,'index.html');
- const text=fs.readFileSync(html,'utf8'),link='<link rel="stylesheet" href="./uah-agent-brand.css">';
+ // A copied runtime may carry the incubator's topic hook. Standalone children
+ // must use the upstream work interface; the incubator build explicitly stages
+ // its current topic hook again after presentation staging.
+ const text=fs.readFileSync(html,'utf8').replace(/\s*<script\s+src=["']\.\/uah-topic-bindings\.js["']\s*>\s*<\/script>/g,''),link='<link rel="stylesheet" href="./uah-agent-brand.css">';
  if(!text.includes(link)){
   if(text.split('</head>').length!==2)throw Error('Unknown desktop HTML layout: presentation staging stopped');
   fs.writeFileSync(html,text.replace('</head>',link+'\n</head>'));
- }
+ }else fs.writeFileSync(html,text);
  const icon=fs.readFileSync(iconFile);
  const png=icon.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10]));
  const ico=icon.length>=22&&icon.readUInt16LE(0)===0&&icon.readUInt16LE(2)===1&&icon.readUInt16LE(4)>0;

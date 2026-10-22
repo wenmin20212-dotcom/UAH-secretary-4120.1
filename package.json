@@ -1,6 +1,6 @@
 {
   "name": "private-company-secretary",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "private": true,
   "description": "Independent ESCO 4120.1 secretary program sources; download complete binaries from Releases",
   "engines": {
@@ -18,7 +18,8 @@
     "build": "node tools/build-runtime.cjs",
     "test:web": "node tools/test-web-read.cjs",
     "test:browser": "node tools/test-browser-cross-session.cjs",
-    "test:upgrade": "node tools/test-program-upgrade.cjs"
+    "test:upgrade": "node tools/test-program-upgrade.cjs",
+    "test:google": "node --test tools/test-google-workspace.cjs"
   },
   "devDependencies": {
     "@modelcontextprotocol/client": "2.3.1"

@@ -1,0 +1,4 @@
+const {Worker,isMainThread,parentPort,workerData}=require('node:worker_threads');
+if(!isMainThread){try{const buffer=require('./docx.cjs').build(workerData);parentPort.postMessage({ok:true,buffer});}catch(e){parentPort.postMessage({ok:false,error:e.message});}}
+function build(input){return new Promise((resolve,reject)=>{const worker=new Worker(__filename,{workerData:input});let settled=false;const timer=setTimeout(()=>{void worker.terminate();reject(Error('导出超时，未保存残缺文件。'));},120000);worker.once('message',r=>{settled=true;clearTimeout(timer);r.ok?resolve(Buffer.from(r.buffer)):reject(Error(r.error));});worker.once('error',e=>{settled=true;clearTimeout(timer);reject(e);});worker.once('exit',code=>{clearTimeout(timer);if(!settled)reject(Error('导出进程已结束，未保存残缺文件。'));});});}
+module.exports={build};

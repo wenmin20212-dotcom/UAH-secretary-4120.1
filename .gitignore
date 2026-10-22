@@ -12,3 +12,7 @@ workspace/
 **/node_modules/
 /updater/config.json
 /updates/
+
+# Instance-only Google credentials
+**/oauth-client.json
+*.dpapi
